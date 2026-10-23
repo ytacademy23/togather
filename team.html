@@ -17,6 +17,17 @@
     tailwind.config = {
       theme: {
         extend: {
+          fontSize: {
+            '2xs': ['0.875rem', { lineHeight: '1.4rem' }],   /* 14px */
+            'xs': ['0.9375rem', { lineHeight: '1.5rem' }],    /* 15px = 11.25pt */
+            'sm': ['1rem', { lineHeight: '1.6rem' }],         /* 16px = 12pt */
+            'base': ['1.0625rem', { lineHeight: '1.65rem' }],  /* 17px = 12.75pt */
+            'lg': ['1.1875rem', { lineHeight: '1.75rem' }],    /* 19px */
+            'xl': ['1.375rem', { lineHeight: '1.875rem' }],    /* 22px */
+            '2xl': ['1.625rem', { lineHeight: '2.1rem' }],     /* 26px */
+            '3xl': ['2rem', { lineHeight: '2.5rem' }],         /* 32px */
+            '4xl': ['2.5rem', { lineHeight: '3rem' }],          /* 40px */
+          },
           colors: {
             nature: {
               bg: '#F4F3EC',
@@ -57,8 +68,7 @@
           }
         }
       }
-    }
-    }
+    };
   </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -96,11 +106,11 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </a>
-            <div class="nav-dropdown absolute top-full left-0 w-56 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2 text-xs font-normal whitespace-nowrap">
-              <a href="about.html#intro" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">인사말 & 설립철학</a>
-              <a href="about.html#training" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">치료사 양성 & 공인 보수교육</a>
-              <a href="about.html#system" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">다학제 슈퍼비전 시스템</a>
-              <a href="about.html#gallery" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">시설 둘러보기</a>
+            <div class="nav-dropdown absolute top-full left-0 w-64 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2.5 text-sm font-medium whitespace-nowrap">
+              <a href="about.html#intro" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">인사말 & 설립철학</a>
+              <a href="about.html#training" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">치료사 양성 & 공인 보수교육</a>
+              <a href="about.html#system" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">다학제 슈퍼비전 시스템</a>
+              <a href="about.html#gallery" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">시설 둘러보기</a>
             </div>
           </div>
 
@@ -112,13 +122,13 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </a>
-            <div class="nav-dropdown absolute top-full left-0 w-56 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2 text-xs font-normal whitespace-nowrap">
-              <a href="programs.html#aba" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">ABA 조기집중교실</a>
-              <a href="programs.html#school" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">예비초등 학교준비반</a>
-              <a href="programs.html#social" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">사회기술학습 & 또래관계</a>
-              <a href="programs.html#individual" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">1:1 언어·놀이·인지치료</a>
-              <a href="programs.html#evaluation" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">심층 발달평가 & 상담</a>
-              <a href="programs.html#coaching" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">기질 맞춤 부모코칭</a>
+            <div class="nav-dropdown absolute top-full left-0 w-64 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2.5 text-sm font-medium whitespace-nowrap">
+              <a href="programs.html#aba" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">ABA 조기집중교실</a>
+              <a href="programs.html#school" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">예비초등 학교준비반</a>
+              <a href="programs.html#social" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">사회기술학습 & 또래관계</a>
+              <a href="programs.html#individual" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">1:1 언어·놀이·인지치료</a>
+              <a href="programs.html#evaluation" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">심층 발달평가 & 상담</a>
+              <a href="programs.html#coaching" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">기질 맞춤 부모코칭</a>
             </div>
           </div>
 
@@ -130,10 +140,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </a>
-            <div class="nav-dropdown absolute top-full left-0 w-52 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2 text-xs font-normal whitespace-nowrap">
-              <a href="team.html#supervisor" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">BCBA 행동분석 슈퍼바이저</a>
-              <a href="team.html#therapists" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">분야별 전문 치료사진</a>
-              <a href="team.html#philosophy" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">전문성 및 임상 윤리</a>
+            <div class="nav-dropdown absolute top-full left-0 w-60 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2.5 text-sm font-medium whitespace-nowrap">
+              <a href="team.html#supervisor" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">BCBA 행동분석 슈퍼바이저</a>
+              <a href="team.html#therapists" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">분야별 전문 치료사진</a>
+              <a href="team.html#philosophy" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">전문성 및 임상 윤리</a>
             </div>
           </div>
 
@@ -145,10 +155,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </a>
-            <div class="nav-dropdown absolute top-full left-0 w-48 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2 text-xs font-normal whitespace-nowrap">
-              <a href="posts.html?tab=column" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">전문가 발달 칼럼</a>
-              <a href="posts.html?tab=notice" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">공지사항 & 소식</a>
-              <a href="posts.html?tab=guide" class="block px-3.5 py-2 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">이용 및 평가 안내</a>
+            <div class="nav-dropdown absolute top-full left-0 w-56 bg-[#FAF9F5] border border-[#D8D6CC] rounded-2xl shadow-xl p-2.5 text-sm font-medium whitespace-nowrap">
+              <a href="posts.html?tab=column" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">전문가 발달 칼럼</a>
+              <a href="posts.html?tab=notice" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">공지사항 & 소식</a>
+              <a href="posts.html?tab=guide" class="block px-4 py-2.5 rounded-xl hover:bg-[#EEF3E8] hover:text-[#7D955E] hover:font-bold transition whitespace-nowrap">이용 및 평가 안내</a>
             </div>
           </div>
 
@@ -253,16 +263,16 @@
             김태희
           </div>
           <div>
-            <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-800">
+            <span class="px-2.5 py-1 rounded text-xs sm:text-sm font-bold bg-blue-100 text-blue-800">
               BCBA 행동분석 슈퍼바이저
             </span>
-            <h3 class="text-xl font-bold text-slate-900 mt-2">김태희 슈퍼바이저</h3>
-            <p class="text-xs text-slate-500 font-medium">국제공인 행동분석가 (BCBA) &bull; ABA 조기집중교실 총괄</p>
+            <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mt-2 font-serif">김태희 슈퍼바이저</h3>
+            <p class="text-xs sm:text-sm text-slate-600 font-medium mt-0.5">국제공인 행동분석가 (BCBA) &bull; ABA 조기집중교실 총괄</p>
           </div>
-          <p class="text-xs text-slate-600 leading-relaxed">
+          <p class="text-sm sm:text-base text-slate-700 leading-relaxed">
             문제행동 기능평가, 분노 조절 훈련, 또래 사회성 및 학습 코칭 전문. 데이터에 기반한 체계적 중재로 아동의 자발적 긍정 행동 형성을 이끕니다.
           </p>
-          <div class="text-[11px] text-slate-500 space-y-1.5 border-t border-slate-200/80 pt-4">
+          <div class="text-xs sm:text-sm text-slate-600 space-y-1.5 border-t border-slate-200/80 pt-4">
             <div>• 국제공인 행동분석가 (BCBA, Board Certified Behavior Analyst)</div>
             <div>• 아카데미 임상 케이스 컨퍼런스 및 슈퍼비전 총괄</div>
             <div>• 아동 발달/사회성 전문 칼럼 연재 및 부모교육 강연</div>
@@ -275,16 +285,16 @@
             조유진
           </div>
           <div>
-            <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-900">
+            <span class="px-2.5 py-1 rounded text-xs sm:text-sm font-bold bg-amber-100 text-amber-900">
               예비초등 학교준비반 총괄
             </span>
-            <h3 class="text-xl font-bold text-slate-900 mt-2">조유진 책임연구원</h3>
-            <p class="text-xs text-slate-500 font-medium">학교준비반 총괄 &bull; 발달 코칭 전문가</p>
+            <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mt-2 font-serif">조유진 책임연구원</h3>
+            <p class="text-xs sm:text-sm text-slate-600 font-medium mt-0.5">학교준비반 총괄 &bull; 발달 코칭 전문가</p>
           </div>
-          <p class="text-xs text-slate-600 leading-relaxed">
+          <p class="text-sm sm:text-base text-slate-700 leading-relaxed">
             5년 차 검증 노하우의 학교준비반을 이끌며, 초등학교 입학을 앞둔 아이들의 착석 유지, 교실 지시이행 및 자기물건 챙기기 등 학교 적응을 밀착 지도합니다.
           </p>
-          <div class="text-[11px] text-slate-500 space-y-1.5 border-t border-slate-200/80 pt-4">
+          <div class="text-xs sm:text-sm text-slate-600 space-y-1.5 border-t border-slate-200/80 pt-4">
             <div>• 예비초등 학교준비반(5년차) 커리큘럼 설계 및 운영</div>
             <div>• 학교 적응 행동 프로파일링 및 교실 모의수업 지도</div>
             <div>• 매월 학부모 브리핑 및 입학 준비 1:1 상담 총괄</div>
@@ -297,16 +307,16 @@
             이미지
           </div>
           <div>
-            <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-teal-100 text-teal-800">
+            <span class="px-2.5 py-1 rounded text-xs sm:text-sm font-bold bg-teal-100 text-teal-800">
               사회성 ∙ 놀이치료 전문
             </span>
-            <h3 class="text-xl font-bold text-slate-900 mt-2">이미지 책임연구원</h3>
-            <p class="text-xs text-slate-500 font-medium">사회기술학습반 &bull; 정서 놀이심리상담</p>
+            <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mt-2 font-serif">이미지 책임연구원</h3>
+            <p class="text-xs sm:text-sm text-slate-600 font-medium mt-0.5">사회기술학습반 &bull; 정서 놀이심리상담</p>
           </div>
-          <p class="text-xs text-slate-600 leading-relaxed">
+          <p class="text-sm sm:text-base text-slate-700 leading-relaxed">
             아이의 감정선을 민감하게 포착하여 위축된 자존감을 회복시키고, 소그룹 내에서 자연스럽게 또래 관계를 맺고 유지하는 기술을 길러줍니다.
           </p>
-          <div class="text-[11px] text-slate-500 space-y-1.5 border-t border-slate-200/80 pt-4">
+          <div class="text-xs sm:text-sm text-slate-600 space-y-1.5 border-t border-slate-200/80 pt-4">
             <div>• 소그룹 사회기술학습반(Turn-Taking, 갈등해결) 지도</div>
             <div>• 정서 표현 및 놀이 매개 심리 중재</div>
             <div>• 부모-자녀 상호작용 및 훈육 코칭 강연</div>
@@ -407,17 +417,17 @@
             <img src="images/ci_symbol.png" alt="YT 마크" class="w-10 h-10 rounded-xl object-contain bg-white p-0.5 border border-slate-700" />
             <div>
               <h4 class="text-lg font-bold text-white tracking-tight">YT 심리발달 아카데미</h4>
-              <p class="text-[11px] text-emerald-400">주식회사 나무브레인핏</p>
+              <p class="text-xs sm:text-sm text-emerald-400">주식회사 나무브레인핏</p>
             </div>
           </div>
-          <p class="text-xs text-slate-400 leading-relaxed max-w-md">
+          <p class="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-md">
             아이마다 타고난 바탕이 다릅니다. 부모님의 탓이 아닙니다.<br/>
             YT 심리발달 아카데미는 응용행동분석(ABA) 행동과학과 전문 임상 치료 시스템을 바탕으로 성장을 돕는 따뜻한 양육 파트너가 되어 드립니다.
           </p>
         </div>
 
-        <div class="lg:col-span-6 space-y-2 text-xs text-slate-400">
-          <div class="text-white font-bold text-sm flex items-center gap-2 mb-2">
+        <div class="lg:col-span-6 space-y-2 text-xs sm:text-sm text-slate-400">
+          <div class="text-white font-bold text-sm sm:text-base flex items-center gap-2 mb-2">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
             하남미사 본원 안내
           </div>
@@ -425,14 +435,14 @@
           <p><strong>대표전화:</strong> <a href="tel:031-795-8641" class="text-white font-bold hover:underline">031-795-8641</a></p>
           <p><strong>주소:</strong> 경기도 하남시 미사강변남로 103 (망월동, 미사랑데르 3차)</p>
           <p><strong>운영시간:</strong> 월 ~ 금 10:00 ~ 19:00 (토·일 휴무)</p>
-          <p class="text-slate-500 pt-1">
+          <p class="text-slate-400 pt-1">
             * 100% 사전 예약제 운영 | 지역화폐(하남 하머니) 카드 결제 가능
           </p>
         </div>
 
       </div>
 
-      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500 gap-4">
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs sm:text-sm text-slate-400 gap-4">
         <p>&copy; 2026 YT 심리발달 아카데미 (주식회사 나무브레인핏). All rights reserved.</p>
         <div class="flex items-center gap-4">
           <a href="location.html" class="hover:text-slate-300">오시는 길</a>
