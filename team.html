@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전문가 소개 | YT 심리발달 아카데미</title>
+  <meta name="description" content="국제공인 행동분석가(BCBA 김태희 슈퍼바이저), 예비초등 학교준비반 및 사회성 전문 책임연구원과 1급 전문 치료사진을 소개합니다.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            yt: {
+              navy: '#193048',
+              dark: '#112233',
+              accent: '#2b5876',
+              green: '#1e5f48',
+              emerald: '#2d8a68',
+              lightgreen: '#eaf5f0',
+              gold: '#b89562',
+              goldlight: '#f7f3ed',
+              light: '#f8fafc',
+              border: '#e2e8f0',
+              gray: '#64748b',
+            }
+          },
+          fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'Roboto', 'sans-serif'],
+            serif: ['"Noto Serif KR"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-slate-800 antialiased flex flex-col min-h-screen selection:bg-yt-navy selection:text-white">
+
+  <!-- Top Utility Bar -->
+  <div class="hidden md:block bg-slate-50 border-b border-slate-200 text-xs text-slate-500 py-2.5 px-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-3 text-[11px]">
+        <span class="inline-flex items-center gap-1.5 text-yt-green font-bold bg-yt-lightgreen px-2 py-0.5 rounded">
+          <span class="w-1.5 h-1.5 rounded-full bg-yt-emerald"></span>
+          하남미사 본원
+        </span>
+        <span class="text-slate-300">&bull;</span>
+        <span class="text-slate-600 font-medium">주식회사 나무브레인핏 &bull; ABA 행동과학 &bull; 학교준비반 &bull; 사회성치료 &bull; 1:1 발달코칭</span>
+      </div>
+      <div class="flex items-center gap-4 text-[11px]">
+        <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold">
+          <span>⚠️</span> <span>신청은 전화로 받지 않습니다 (구글 폼 접수제)</span>
+        </span>
+        <span class="text-slate-300">|</span>
+        <a href="index.html#process-guide" class="text-emerald-700 font-extrabold hover:underline">📋 이용방법 & 자문의 Q&A</a>
+        <span class="text-slate-300">|</span>
+        <a href="https://blog.naver.com/ytree_academy" target="_blank" rel="noopener" class="text-slate-600 hover:text-emerald-700 font-medium">공식 블로그</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/98 backdrop-blur-md border-b border-slate-200 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <a href="index.html" class="flex items-center gap-3.5 group">
+          <img src="images/ci_symbol.png" alt="YT 심리발달 아카데미 로고" class="w-12 h-12 rounded-xl object-contain shadow-xs border border-slate-100 group-hover:scale-105 transition bg-white p-0.5" />
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-xl sm:text-2xl font-bold text-yt-dark tracking-tight leading-none font-serif">
+                YT<span class="font-normal text-slate-700">심리발달아카데미</span>
+              </span>
+            </div>
+            <span class="block text-[10px] tracking-widest text-yt-green uppercase font-sans font-semibold mt-1">
+              YT DEVELOPMENT ACADEMY
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden xl:flex items-center gap-1 text-sm font-semibold text-slate-700">
+          <div class="relative nav-item py-7 px-3">
+            <a href="about.html" class="hover:text-yt-navy transition flex items-center gap-1">
+              아카데미 소개 <span class="text-[10px] text-slate-400">▾</span>
+            </a>
+            <div class="nav-dropdown absolute top-full left-0 w-48 bg-white border border-slate-200 rounded-xl shadow-xl py-2 text-xs font-normal">
+              <a href="about.html#intro" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">인사말 & 설립철학</a>
+              <a href="about.html#system" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">전문 슈퍼비전 시스템</a>
+              <a href="about.html#features" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">아카데미 특장점</a>
+              <a href="about.html#gallery" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">센터 둘러보기</a>
+            </div>
+          </div>
+
+          <div class="relative nav-item py-7 px-3">
+            <a href="programs.html" class="hover:text-yt-navy transition flex items-center gap-1">
+              프로그램 안내 <span class="text-[10px] text-slate-400">▾</span>
+            </a>
+            <div class="nav-dropdown absolute top-full left-0 w-56 bg-white border border-slate-200 rounded-xl shadow-xl py-2 text-xs font-normal">
+              <a href="programs.html#aba" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">ABA 조기집중교실</a>
+              <a href="programs.html#school" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">예비초등 학교준비반</a>
+              <a href="programs.html#social" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">사회기술학습 & 또래관계</a>
+              <a href="programs.html#individual" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">1:1 언어·놀이·인지치료</a>
+              <a href="programs.html#evaluation" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">심층 발달평가 & 상담</a>
+              <a href="programs.html#coaching" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">기질 맞춤 부모코칭</a>
+            </div>
+          </div>
+
+          <div class="relative nav-item py-7 px-3">
+            <a href="team.html" class="text-yt-green font-bold transition flex items-center gap-1">
+              전문가 소개 <span class="text-[10px] text-slate-400">▾</span>
+            </a>
+            <div class="nav-dropdown absolute top-full left-0 w-52 bg-white border border-slate-200 rounded-xl shadow-xl py-2 text-xs font-normal">
+              <a href="team.html#supervisor" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">BCBA 행동분석 슈퍼바이저</a>
+              <a href="team.html#therapists" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">분야별 전문 치료사진</a>
+              <a href="team.html#philosophy" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">전문성 및 임상 윤리</a>
+            </div>
+          </div>
+
+          <div class="relative nav-item py-7 px-3">
+            <a href="posts.html" class="hover:text-yt-navy transition flex items-center gap-1">
+              소통공간 & 칼럼 <span class="text-[10px] text-slate-400">▾</span>
+            </a>
+            <div class="nav-dropdown absolute top-full left-0 w-48 bg-white border border-slate-200 rounded-xl shadow-xl py-2 text-xs font-normal">
+              <a href="posts.html?tab=column" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">전문가 발달 칼럼</a>
+              <a href="posts.html?tab=notice" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">공지사항 & 이벤트</a>
+              <a href="posts.html?tab=guide" class="block px-4 py-2 hover:bg-slate-50 hover:text-yt-navy hover:font-bold">이용 및 평가 안내</a>
+            </div>
+          </div>
+
+          <div class="relative nav-item py-7 px-3">
+            <a href="index.html#process-guide" class="text-emerald-800 font-bold hover:text-emerald-950 transition flex items-center gap-1">
+              이용방법 & 자문의 Q&A
+            </a>
+          </div>
+
+          <div class="relative nav-item py-7 px-3">
+            <a href="location.html" class="hover:text-yt-navy transition">오시는 길</a>
+          </div>
+        </nav>
+
+        <!-- Right Quick Action Button: 자문의 상담 Q&A & 온라인 신청 -->
+        <div class="hidden lg:flex items-center gap-2">
+          <a href="index.html#process-guide" class="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold shadow-xs transition duration-200">
+            <svg class="w-4 h-4 text-emerald-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+            </svg>
+            <span>자문의 상담 Q&A</span>
+          </a>
+          <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="inline-flex items-center gap-1 px-3 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-xs transition duration-200">
+            <span>📝 온라인 신청</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobileMenuOverlay" class="fixed inset-0 bg-slate-900/60 z-50 hidden opacity-0 transition-opacity"></div>
+  <div id="mobileMenuDrawer" class="fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-white z-50 shadow-2xl transform translate-x-full transition-transform flex flex-col">
+    <div class="p-5 border-b border-slate-100 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <img src="images/ci_symbol.png" alt="YT 로고" class="w-8 h-8 rounded-lg" />
+        <span class="font-bold text-slate-900 text-sm">YT 심리발달 아카데미</span>
+      </div>
+      <button id="closeMobileMenuBtn" class="p-2 rounded-lg text-slate-400 hover:bg-slate-100">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div class="p-5 overflow-y-auto flex-1 space-y-4 text-sm">
+      <a href="about.html" class="block py-2 text-slate-700">아카데미 소개</a>
+      <a href="programs.html" class="block py-2 text-slate-700">프로그램 안내</a>
+      <a href="team.html" class="block py-2 text-emerald-800 font-bold">전문가 소개</a>
+      <a href="posts.html" class="block py-2 text-slate-700">소통공간 & 칼럼</a>
+      <a href="location.html" class="block py-2 text-slate-700">오시는 길 & 이용안내</a>
+      <div class="pt-4 border-t border-slate-100">
+        <a href="tel:031-795-8641" class="block py-2 font-bold text-yt-navy">📞 031-795-8641</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Banner -->
+  <section class="bg-gradient-to-b from-slate-50 to-white py-12 border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+      <div class="text-xs text-slate-400 flex items-center justify-center sm:justify-start gap-2 mb-3">
+        <a href="index.html" class="hover:text-yt-navy">홈</a>
+        <span>&rsaquo;</span>
+        <span class="text-yt-green font-medium">전문가 소개</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight font-serif">
+        전문가 소개
+      </h1>
+      <p class="text-sm text-slate-600 mt-2">
+        국제공인 행동분석가(BCBA) 슈퍼바이저, 예비초등 학교준비반 총괄 및 분야별 1급 치료사진
+      </p>
+    </div>
+  </section>
+
+  <!-- Section: ABA 슈퍼바이저 & 핵심 책임연구원 -->
+  <section class="py-16 bg-white border-b border-slate-100" id="supervisor">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-yt-green block mb-2">Clinical Leadership</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-serif">
+          임상 총괄 슈퍼바이저 & 책임 연구팀
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-2">
+          임상 현장에서 검증된 전문성과 학술적 깊이를 갖춘 전문가들이 아이의 발달과 성장을 이끕니다.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- 김태희 슈퍼바이저 -->
+        <div class="bg-slate-50 border border-slate-200 rounded-3xl p-7 space-y-4 hover:shadow-md transition">
+          <div class="w-16 h-16 rounded-2xl bg-blue-100 text-blue-800 flex items-center justify-center font-bold font-serif text-lg">
+            김태희
+          </div>
+          <div>
+            <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-800">
+              BCBA 행동분석 슈퍼바이저
+            </span>
+            <h3 class="text-xl font-bold text-slate-900 mt-2">김태희 슈퍼바이저</h3>
+            <p class="text-xs text-slate-500 font-medium">국제공인 행동분석가 (BCBA) &bull; ABA 조기집중교실 총괄</p>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            문제행동 기능평가, 분노 조절 훈련, 또래 사회성 및 학습 코칭 전문. 데이터에 기반한 체계적 중재로 아동의 자발적 긍정 행동 형성을 이끕니다.
+          </p>
+          <div class="text-[11px] text-slate-500 space-y-1.5 border-t border-slate-200/80 pt-4">
+            <div>• 국제공인 행동분석가 (BCBA, Board Certified Behavior Analyst)</div>
+            <div>• 아카데미 임상 케이스 컨퍼런스 및 슈퍼비전 총괄</div>
+            <div>• 아동 발달/사회성 전문 칼럼 연재 및 부모교육 강연</div>
+          </div>
+        </div>
+
+        <!-- 조유진 책임연구원 -->
+        <div class="bg-slate-50 border border-slate-200 rounded-3xl p-7 space-y-4 hover:shadow-md transition">
+          <div class="w-16 h-16 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold font-serif text-lg">
+            조유진
+          </div>
+          <div>
+            <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-900">
+              예비초등 학교준비반 총괄
+            </span>
+            <h3 class="text-xl font-bold text-slate-900 mt-2">조유진 책임연구원</h3>
+            <p class="text-xs text-slate-500 font-medium">학교준비반 총괄 &bull; 발달 코칭 전문가</p>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            5년 차 검증 노하우의 학교준비반을 이끌며, 초등학교 입학을 앞둔 아이들의 착석 유지, 교실 지시이행 및 자기물건 챙기기 등 학교 적응을 밀착 지도합니다.
+          </p>
+          <div class="text-[11px] text-slate-500 space-y-1.5 border-t border-slate-200/80 pt-4">
+            <div>• 예비초등 학교준비반(5년차) 커리큘럼 설계 및 운영</div>
+            <div>• 학교 적응 행동 프로파일링 및 교실 모의수업 지도</div>
+            <div>• 매월 학부모 브리핑 및 입학 준비 1:1 상담 총괄</div>
+          </div>
+        </div>
+
+        <!-- 이미지 책임연구원 -->
+        <div class="bg-slate-50 border border-slate-200 rounded-3xl p-7 space-y-4 hover:shadow-md transition">
+          <div class="w-16 h-16 rounded-2xl bg-teal-100 text-teal-800 flex items-center justify-center font-bold font-serif text-lg">
+            이미지
+          </div>
+          <div>
+            <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-teal-100 text-teal-800">
+              사회성 ∙ 놀이치료 전문
+            </span>
+            <h3 class="text-xl font-bold text-slate-900 mt-2">이미지 책임연구원</h3>
+            <p class="text-xs text-slate-500 font-medium">사회기술학습반 &bull; 정서 놀이심리상담</p>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            아이의 감정선을 민감하게 포착하여 위축된 자존감을 회복시키고, 소그룹 내에서 자연스럽게 또래 관계를 맺고 유지하는 기술을 길러줍니다.
+          </p>
+          <div class="text-[11px] text-slate-500 space-y-1.5 border-t border-slate-200/80 pt-4">
+            <div>• 소그룹 사회기술학습반(Turn-Taking, 갈등해결) 지도</div>
+            <div>• 정서 표현 및 놀이 매개 심리 중재</div>
+            <div>• 부모-자녀 상호작용 및 훈육 코칭 강연</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: 분야별 전문 치료사진 -->
+  <section class="py-16 bg-slate-50 border-b border-slate-200/80" id="therapists">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-yt-green block mb-2">Multidisciplinary Team</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-serif">
+          분야별 전문 치료사진
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-2">
+          공인 1급 언어재활사, 인지학습치료사, 임상심리전문가가 상주하여 정밀한 개별 맞춤 세션을 진행합니다.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-xs space-y-3">
+          <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-sm">
+            언어
+          </div>
+          <h3 class="text-base font-bold text-slate-900">전문 언어재활사진</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            보건복지부 공인 언어재활사가 조음 장애, 언어 발달 지연, 수용·표현 언어 불균형 아동의 기능적 의사소통을 1:1로 지도합니다.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-xs space-y-3">
+          <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm">
+            인지
+          </div>
+          <h3 class="text-base font-bold text-slate-900">인지학습 전문 치료사진</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            주의집중력, 작업기억, 시지각 협응 및 기초 학습 수행에 어려움을 겪는 아동의 두뇌 정보 처리 능력을 개선합니다.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-xs space-y-3">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm">
+            심리
+          </div>
+          <h3 class="text-base font-bold text-slate-900">놀이심리 및 평가 연구진</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            TCI 기질검사 및 정서 놀이 매개를 통해 아동의 내면 불안과 긴장을 완화하고 건강한 자아 존중감을 형성하도록 돕습니다.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: 임상 철학 및 연구 윤리 -->
+  <section class="py-16 bg-white border-b border-slate-100" id="philosophy">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-r from-slate-900 via-yt-navy to-slate-900 rounded-3xl p-8 sm:p-12 text-white shadow-xl">
+        <div class="max-w-3xl space-y-4">
+          <span class="text-xs font-bold uppercase tracking-widest text-yt-gold block">Commitment to Excellence</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold font-serif">
+            YT 아카데미 임상 연구 및 치료 원칙
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4 text-xs text-slate-300">
+            <div class="space-y-1">
+              <strong class="text-white block text-sm mb-1">1. 정기 슈퍼비전</strong>
+              <p>주간 케이스 컨퍼런스를 통해 치료사 전원이 개별 아동의 목표 달성률을 상호 교차 검증합니다.</p>
+            </div>
+            <div class="space-y-1">
+              <strong class="text-white block text-sm mb-1">2. 데이터 기반 중재</strong>
+              <p>주관적 느낌이 아닌 객관적 행동 기록 차트를 통해 아동의 긍정적 변화를 숫자로 투명하게 확인합니다.</p>
+            </div>
+            <div class="space-y-1">
+              <strong class="text-white block text-sm mb-1">3. 보호자 파트너십</strong>
+              <p>치료실 안의 치료로 끝나지 않고, 보호자가 가정에서 일관된 지지를 이어갈 수 있도록 매회 브리핑을 제공합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto bg-yt-dark text-slate-300 py-16 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800/80">
+        
+        <div class="lg:col-span-6 space-y-4">
+          <div class="flex items-center gap-3">
+            <img src="images/ci_symbol.png" alt="YT 마크" class="w-10 h-10 rounded-xl object-contain bg-white p-0.5 border border-slate-700" />
+            <div>
+              <h4 class="text-lg font-bold text-white tracking-tight">YT 심리발달 아카데미</h4>
+              <p class="text-[11px] text-emerald-400">주식회사 나무브레인핏</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed max-w-md">
+            아이마다 타고난 바탕이 다릅니다. 부모님의 탓이 아닙니다.<br/>
+            YT 심리발달 아카데미는 응용행동분석(ABA) 행동과학과 전문 임상 치료 시스템을 바탕으로 성장을 돕는 따뜻한 양육 파트너가 되어 드립니다.
+          </p>
+        </div>
+
+        <div class="lg:col-span-6 space-y-2 text-xs text-slate-400">
+          <div class="text-white font-bold text-sm flex items-center gap-2 mb-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+            하남미사 본원 안내
+          </div>
+          <p><strong>상호명:</strong> 주식회사 나무브레인핏 | <strong>기관명:</strong> YT 심리발달 아카데미</p>
+          <p><strong>대표전화:</strong> <a href="tel:031-795-8641" class="text-white font-bold hover:underline">031-795-8641</a></p>
+          <p><strong>주소:</strong> 경기도 하남시 미사강변남로 103 (망월동, 미사랑데르 3차)</p>
+          <p><strong>운영시간:</strong> 월 ~ 금 10:00 ~ 19:00 (토·일 휴무)</p>
+          <p class="text-slate-500 pt-1">
+            * 100% 사전 예약제 운영 | 지역화폐(하남 하머니) 카드 결제 가능
+          </p>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500 gap-4">
+        <p>&copy; 2026 YT 심리발달 아카데미 (주식회사 나무브레인핏). All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <a href="location.html" class="hover:text-slate-300">오시는 길</a>
+          <span>&bull;</span>
+          <a href="https://blog.naver.com/ytree_academy" target="_blank" rel="noopener" class="text-emerald-500 hover:underline">네이버 블로그</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

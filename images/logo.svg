@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#193048"/>
+      <stop offset="100%" stop-color="#0f2030"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2d8a68"/>
+      <stop offset="100%" stop-color="#52b788"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b89562"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Rounded Base Badge -->
+  <rect width="200" height="200" rx="44" fill="url(#bgGrad)"/>
+  <rect x="6" y="6" width="188" height="188" rx="38" fill="none" stroke="#b89562" stroke-width="1.5" stroke-opacity="0.35"/>
+  
+  <!-- Subtle Mind & Growth Circles -->
+  <circle cx="100" cy="100" r="76" fill="none" stroke="#52b788" stroke-width="1" stroke-dasharray="4 6" opacity="0.3"/>
+  
+  <!-- Stylized Growing Tree & Brain Synapse Motif -->
+  <!-- Tree Trunk forming "Y" and "T" -->
+  <path d="M100 152 V108 M100 108 L72 74 M100 108 L128 74" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Top T bar cross -->
+  <path d="M60 74 H140" stroke="#b89562" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Vibrant Growth Leaves (Brain & Mind Metaphor) -->
+  <circle cx="100" cy="50" r="16" fill="url(#leafGrad)"/>
+  <circle cx="68" cy="62" r="13" fill="url(#leafGrad)" opacity="0.9"/>
+  <circle cx="132" cy="62" r="13" fill="url(#leafGrad)" opacity="0.9"/>
+  <circle cx="44" cy="85" r="11" fill="url(#goldGrad)" opacity="0.95"/>
+  <circle cx="156" cy="85" r="11" fill="url(#goldGrad)" opacity="0.95"/>
+  
+  <circle cx="82" cy="84" r="8" fill="#ffffff" opacity="0.85"/>
+  <circle cx="118" cy="84" r="8" fill="#ffffff" opacity="0.85"/>
+  
+  <!-- Central Spark of Insight -->
+  <circle cx="100" cy="108" r="5" fill="#f5efe6"/>
+  
+  <!-- Roots / Foundation Arch -->
+  <path d="M78 152 Q100 162 122 152" fill="none" stroke="#b89562" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Small Brand Text in Symbol -->
+  <text x="100" y="180" text-anchor="middle" font-family="'Pretendard', sans-serif" font-weight="700" font-size="12" fill="#d4af37" letter-spacing="3">YT ACADEMY</text>
+</svg>
