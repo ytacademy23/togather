@@ -1,11 +1,40 @@
 /* YT 심리발달 아카데미 Custom Stylesheet */
+/* Design Tone: Natural Warm Organic & Healing Aesthetic (자연안에한의원 스타일 무드) */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-nature-page: #F4F3EC;
+  --color-nature-card: #FAF9F5;
+  --color-nature-section: #ECEBE4;
+  --color-nature-line: #D8D6CC;
+  --color-nature-border: #CDC9BC;
+  --color-nature-sage: #7D955E;
+  --color-nature-forest: #2C3322;
+  --color-nature-earth: #51442E;
+  --color-nature-gold: #C59141;
+  --color-nature-text: #1C1E18;
+  --color-nature-sub: #5F6156;
+}
 
 /* Pretendard Font fallback and base styles */
 body {
   font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
   word-break: keep-all;
-  color: #2b3340;
+  color: #1C1E18;
+  background-color: #F4F3EC;
   -webkit-font-smoothing: antialiased;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', 'Noto Serif KR', serif;
+}
+
+.category-tag {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 html {

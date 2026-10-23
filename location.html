@@ -10,7 +10,7 @@
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -18,31 +18,51 @@
       theme: {
         extend: {
           colors: {
+            nature: {
+              bg: '#F4F3EC',
+              card: '#FAF9F5',
+              section: '#ECEBE4',
+              line: '#D8D6CC',
+              lineDark: '#CDC9BC',
+              sage: '#7D955E',
+              sageHover: '#6B834E',
+              sageLight: '#EEF2E6',
+              forest: '#2C3322',
+              forestDark: '#1E2317',
+              ochre: '#C59141',
+              ochreLight: '#F8F2E6',
+              earth: '#51442E',
+              text: '#1C1E18',
+              textSub: '#5F6156',
+              textAux: '#8D8B84',
+            },
             yt: {
-              navy: '#193048',
-              dark: '#112233',
-              accent: '#2b5876',
-              green: '#1e5f48',
-              emerald: '#2d8a68',
-              lightgreen: '#eaf5f0',
-              gold: '#b89562',
-              goldlight: '#f7f3ed',
-              light: '#f8fafc',
-              border: '#e2e8f0',
-              gray: '#64748b',
+              navy: '#2C3322',
+              dark: '#1C1E18',
+              accent: '#7D955E',
+              green: '#7D955E',
+              emerald: '#637947',
+              lightgreen: '#EEF2E6',
+              gold: '#C59141',
+              goldlight: '#F8F2E6',
+              light: '#F4F3EC',
+              border: '#D8D6CC',
+              gray: '#5F6156',
             }
           },
           fontFamily: {
             sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'Roboto', 'sans-serif'],
             serif: ['"Noto Serif KR"', 'serif'],
+            cormorant: ['"Cormorant Garamond"', 'serif'],
           }
         }
       }
     }
+    }
   </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-white text-slate-800 antialiased flex flex-col min-h-screen selection:bg-yt-navy selection:text-white">
+<body class="bg-[#F4F3EC] text-[#1C1E18] antialiased flex flex-col min-h-screen selection:bg-[#7D955E] selection:text-white font-sans">
 
   <!-- Top Utility Bar -->
   <div class="hidden md:block bg-slate-50 border-b border-slate-200 text-xs text-slate-500 py-2.5 px-4">
