@@ -250,11 +250,15 @@
   <!-- Main Content -->
   <main class="flex-1">
 
-    <!-- 1. Hero Section (Samsung Minimalist Style: Pure Center-Aligned, Spacious, Full-Viewport) -->
-    <section class="relative bg-[#FAF9F5] min-h-[calc(100vh-80px)] flex flex-col justify-between items-center text-center py-12 lg:py-0 overflow-hidden border-b border-[#D8D6CC]">
-      <div class="absolute inset-0 opacity-40 pointer-events-none">
-        <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-[#E0DBCF] blur-3xl"></div>
-        <div class="absolute top-1/2 -left-32 w-96 h-96 rounded-full bg-[#EEF3E8] blur-3xl"></div>
+    <!-- 1. Hero Section (Atmospheric Full-Bleed Sanctuary: Gentle Space Depth + Centered Editorial Typography) -->
+    <section class="relative min-h-[calc(100vh-80px)] flex flex-col justify-between items-center text-center py-12 lg:py-0 overflow-hidden border-b border-[#D8D6CC] bg-[#FAF9F5]">
+      
+      <!-- Full-Bleed Ambient Background Image with Soft Organic Overlays (공간감과 깊이감을 채워주는 은은한 배경) -->
+      <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+        <img src="images/facility_station.jpg" alt="YT 심리발달 아카데미 시그니처 공간" class="w-full h-full object-cover scale-105 filter blur-[2.5px] opacity-20 sm:opacity-25 transition-opacity" />
+        <div class="absolute inset-0 bg-gradient-to-b from-[#FAF9F5]/90 via-[#FAF9F5]/80 to-[#FAF9F5]"></div>
+        <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-[#E0DBCF]/30 blur-3xl"></div>
+        <div class="absolute top-1/2 -left-32 w-96 h-96 rounded-full bg-[#EEF3E8]/30 blur-3xl"></div>
       </div>
 
       <!-- Main Centered Content -->
