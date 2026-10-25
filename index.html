@@ -250,81 +250,61 @@
   <!-- Main Content -->
   <main class="flex-1">
 
-    <!-- 1. Hero Section (Modern Visual Hero: Clean Editorial Typography + Ambient Campus Visual Card) -->
-    <section class="relative bg-[#FAF9F5] min-h-[calc(100vh-80px)] flex flex-col justify-between items-center text-center pt-7 pb-10 sm:pt-12 sm:pb-14 lg:py-12 overflow-hidden border-b border-[#D8D6CC]">
+    <!-- 1. Hero Section (Samsung Minimalist Style: Pure Center-Aligned, Spacious, Full-Viewport) -->
+    <section class="relative bg-[#FAF9F5] min-h-[calc(100vh-80px)] flex flex-col justify-between items-center text-center py-12 lg:py-0 overflow-hidden border-b border-[#D8D6CC]">
       <div class="absolute inset-0 opacity-40 pointer-events-none">
         <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-[#E0DBCF] blur-3xl"></div>
         <div class="absolute top-1/2 -left-32 w-96 h-96 rounded-full bg-[#EEF3E8] blur-3xl"></div>
       </div>
 
-      <!-- Main Content Container -->
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 flex flex-col items-center">
+      <!-- Main Centered Content -->
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full my-auto py-10 sm:py-16 relative z-10 flex flex-col items-center">
         
-        <!-- Category Tag (Mobile Clean 1-Line Pill) -->
-        <div class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#ECEBE4]/80 border border-[#D8D6CC] text-[11px] sm:text-xs font-semibold text-[#2C3322] mb-4 sm:mb-6 shadow-2xs">
-          <span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span>
-          <span class="font-cormorant font-bold uppercase tracking-wider text-[#7D955E]">Growth Care</span>
-          <span class="text-[#D8D6CC]">•</span>
-          <span class="text-[#5F6156]">하남미사 아동발달 · 행동과학 아카데미</span>
+        <!-- Category Tag -->
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ECEBE4]/60 border border-[#D8D6CC] text-xs sm:text-sm font-semibold text-[#2C3322] mb-6 sm:mb-8 shadow-2xs">
+          <span class="w-2 h-2 rounded-full bg-[#7D955E]"></span>
+          <span class="font-cormorant font-bold uppercase tracking-[0.18em] text-[#7D955E]">• Growth Care</span>
+          <span class="text-[#D8D6CC]">|</span>
+          <span class="text-xs sm:text-sm text-[#5F6156] font-medium">하남미사 아동 발달 · 행동과학 전문기관</span>
         </div>
 
-        <!-- Monumental Centered Headline (모바일 2줄 최적화 폰트 & 자연스러운 호흡) -->
-        <h1 class="text-[25px] xs:text-[28px] sm:text-5xl lg:text-[3.5rem] font-extrabold text-[#2C3322] leading-[1.38] sm:leading-[1.28] font-serif tracking-tight break-keep mb-3.5 sm:mb-5">
-          매일매일의 습관이 모여,<br />
+        <!-- Monumental Centered Headline (줄간격 확장: leading-[1.45] sm:leading-[1.38]) -->
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#2C3322] leading-[1.45] sm:leading-[1.38] lg:leading-[1.32] font-serif tracking-tight break-keep mb-6 sm:mb-8">
+          매일매일의 습관이 모여,<br class="hidden sm:inline" />
           스스로 살아가는 <span class="text-[#7D955E]">온전한 힘</span>이 됩니다
         </h1>
 
-        <!-- Subtitle (간결하고 정갈한 카피) -->
-        <p class="text-xs sm:text-base text-[#5F6156] leading-relaxed max-w-xl mx-auto break-keep font-normal mb-5 sm:mb-7">
+        <!-- Subtitle -->
+        <p class="text-sm sm:text-lg text-[#5F6156] leading-relaxed max-w-2xl mx-auto break-keep font-normal mb-7 sm:mb-9">
           단순한 행동 교정을 넘어, 아이의 평생을 지탱할 삶의 규칙과 사회성을<br class="hidden sm:inline" />
           과학적 행동중재(ABA)로 단단하게 체화합니다.
         </p>
 
-        <!-- Centered Action CTAs (모바일 나란히 정렬되는 컴팩트 버튼) -->
-        <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 mb-6 sm:mb-8">
-          <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="px-4 py-2.5 sm:px-6 sm:py-3 rounded-full bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] font-semibold text-xs sm:text-sm shadow-xs hover:shadow-md transition-all inline-flex items-center justify-center gap-1.5 border border-[#2C3322]">
-            <span>📝 온라인 신청하기</span>
+        <!-- Centered Action CTAs (컴팩트하고 세련된 버튼: 모바일 과대 크기 축소) -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-3.5 w-auto mb-8 sm:mb-10">
+          <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="w-auto px-5 py-2.5 sm:px-6 sm:py-3 rounded-full bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] font-semibold text-xs sm:text-sm shadow-xs hover:shadow-md transition-all inline-flex items-center justify-center gap-2 border border-[#2C3322] group">
+            <span>📝 구글 폼 온라인 신청하기</span>
+            <svg class="w-3.5 h-3.5 text-[#C59141] group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
           </a>
-          <a href="#process-guide" class="px-4 py-2.5 sm:px-6 sm:py-3 rounded-full bg-white hover:bg-[#F4F3EC] text-[#2C3322] border border-[#D8D6CC] font-semibold text-xs sm:text-sm shadow-2xs transition-all inline-flex items-center justify-center gap-1">
-            <span>이용방법 &rarr;</span>
+          <a href="#process-guide" class="w-auto px-5 py-2.5 sm:px-6 sm:py-3 rounded-full bg-white hover:bg-[#F4F3EC] text-[#2C3322] border border-[#D8D6CC] font-semibold text-xs sm:text-sm shadow-2xs transition-all inline-flex items-center justify-center gap-1.5">
+            <span>이용방법 &amp; 자문의 Q&A &rarr;</span>
           </a>
         </div>
 
-        <!-- Campus Ambient Hero Card (첫 화면의 휑한 느낌을 없애는 감성 비주얼 카드) -->
-        <div class="w-full max-w-2xl mx-auto">
-          <div class="relative rounded-2xl sm:rounded-3xl overflow-hidden border border-[#D8D6CC] shadow-md group bg-white">
-            <div class="aspect-[16/8] sm:aspect-[21/9] overflow-hidden relative">
-              <img src="images/facility_station.jpg" alt="YT 심리발달 아카데미 본원 로비 스테이션 전경" class="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out" />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent"></div>
-              
-              <!-- Glassmorphism Trust Highlights inside the Image Card -->
-              <div class="absolute bottom-2.5 left-3 right-3 sm:bottom-4 sm:left-5 sm:right-5 flex items-center justify-between text-left">
-                <div>
-                  <div class="flex items-center gap-1.5 text-[10px] sm:text-xs text-[#E7EEDF] font-bold font-cormorant uppercase tracking-wider">
-                    <span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span>
-                    <span>Hanam Misa Campus</span>
-                  </div>
-                  <div class="text-[11px] sm:text-sm font-medium text-[#FAF9F5] tracking-tight mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5">
-                    <span>10년 임상 수련 노하우</span>
-                    <span class="text-white/40">•</span>
-                    <span>BCBA 국제공인 슈퍼비전</span>
-                    <span class="text-white/40">•</span>
-                    <span>100% 사전 예약제</span>
-                  </div>
-                </div>
-                <a href="about.html#gallery" class="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-white/90 backdrop-blur-xs text-[#2C3322] text-xs font-bold hover:bg-white transition shrink-0 shadow-xs">
-                  <span>시설 보기</span> &rarr;
-                </a>
-              </div>
-            </div>
-          </div>
+        <!-- Centered Trust Highlights -->
+        <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-[#8D8B84] pt-4 border-t border-[#D8D6CC]/50 max-w-xl w-full">
+          <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span> 10년 임상 수련 노하우</span>
+          <span class="text-[#D8D6CC]">&bull;</span>
+          <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span> BCBA 국제공인 슈퍼비전</span>
+          <span class="text-[#D8D6CC]">&bull;</span>
+          <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span> 100% 사전 예약제</span>
         </div>
 
       </div>
 
-      <!-- Bottom Scroll Indicator -->
-      <div class="hidden lg:flex justify-center pt-6 pb-2 relative z-10">
-        <a href="#core-habits" class="flex flex-col items-center gap-1 text-xs text-[#8D8B84] hover:text-[#2C3322] transition group">
+      <!-- Bottom Scroll Indicator (화면이 잘리지 않고 스크롤을 자연스럽게 유도) -->
+      <div class="hidden lg:flex justify-center pb-8 relative z-10">
+        <a href="#core-habits" class="flex flex-col items-center gap-1.5 text-xs text-[#8D8B84] hover:text-[#2C3322] transition group">
           <span class="font-medium tracking-wide">4대 성장 습관 둘러보기</span>
           <svg class="w-4 h-4 text-[#7D955E] animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
