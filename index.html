@@ -307,31 +307,124 @@
             </div>
           </div>
 
-          <!-- Right Visual Card (5 cols) -->
+          <!-- Right Visual Card (5 cols) - 4대 성장 습관 카드뉴스 (5초 간격 전환) -->
           <div class="lg:col-span-5">
-            <div class="bg-[#FAF9F5] rounded-3xl p-5 sm:p-6 shadow-sm border border-[#D8D6CC] space-y-4">
-              <div class="rounded-2xl overflow-hidden aspect-16/10 relative border border-[#D8D6CC]">
-                <img src="images/ghibli_school_rules.jpg" alt="교실에서 바르게 앉아 발표하는 아이들 지브리 일러스트" class="w-full h-full object-cover" />
-                <div class="absolute inset-0 bg-gradient-to-t from-[#1E2317]/80 via-transparent to-transparent flex items-end p-4">
-                  <span class="text-[#FAF9F5] text-sm sm:text-base font-semibold">"매일 아침이 편안해지고, 학교 가는 발걸음이 즐거워집니다"</span>
+            <div class="bg-[#FAF9F5] rounded-3xl p-4 sm:p-5 shadow-sm border border-[#D8D6CC] space-y-3.5">
+              
+              <!-- Card News Container (5초 자동 전환) -->
+              <div id="habitCardNews" class="relative rounded-2xl overflow-hidden aspect-[16/10.5] border border-[#D8D6CC] bg-[#1E2317] select-none group">
+                
+                <!-- Slide 1: 스스로 정리하기 (자립 루틴) -->
+                <div class="habit-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-100 z-10" data-index="0">
+                  <img src="images/ghibli_habit_organize.jpg" alt="장난감을 스스로 정리하는 한국 아이 지브리 일러스트" class="w-full h-full object-cover" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#1E2317]/90 via-[#1E2317]/35 to-transparent flex flex-col justify-between p-4 sm:p-4.5">
+                    <div class="flex items-center justify-between">
+                      <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-[#FAF9F5]/95 text-[#2C3322] border border-[#D8D6CC] shadow-2xs backdrop-blur-xs">
+                        🧹 01. 스스로 정리하기
+                      </span>
+                    </div>
+                    <div>
+                      <p class="text-[#FAF9F5] text-sm sm:text-base font-bold leading-snug drop-shadow-md font-serif">
+                        &ldquo;열 번 말하지 않아도 자기 물건을 제자리에 척척 정리합니다&rdquo;
+                      </p>
+                      <span class="text-[#D8D6CC] text-[11px] sm:text-xs mt-1 block">자립 루틴 &bull; #스스로정돈 #가방싸기</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 2: 몰입과 착석 (공부 습관) -->
+                <div class="habit-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0 pointer-events-none" data-index="1">
+                  <img src="images/ghibli_habit_study.jpg" alt="책상에서 차분하게 몰입하는 한국 아이 지브리 일러스트" class="w-full h-full object-cover" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#1E2317]/90 via-[#1E2317]/35 to-transparent flex flex-col justify-between p-4 sm:p-4.5">
+                    <div class="flex items-center justify-between">
+                      <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-[#FAF9F5]/95 text-[#2C3322] border border-[#D8D6CC] shadow-2xs backdrop-blur-xs">
+                        📚 02. 몰입과 착석
+                      </span>
+                    </div>
+                    <div>
+                      <p class="text-[#FAF9F5] text-sm sm:text-base font-bold leading-snug drop-shadow-md font-serif">
+                        &ldquo;방해 자극 속에서도 차분하게 책상에 앉아 과제를 완수합니다&rdquo;
+                      </p>
+                      <span class="text-[#D8D6CC] text-[11px] sm:text-xs mt-1 block">공부 습관 &bull; #40분집중 #엉덩이힘</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 3: 학교 규칙 (학교 적응) -->
+                <div class="habit-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0 pointer-events-none" data-index="2">
+                  <img src="images/ghibli_school_rules.jpg" alt="교실에서 바르게 앉아 발표하는 아이들 지브리 일러스트" class="w-full h-full object-cover" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#1E2317]/90 via-[#1E2317]/35 to-transparent flex flex-col justify-between p-4 sm:p-4.5">
+                    <div class="flex items-center justify-between">
+                      <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-[#FAF9F5]/95 text-[#2C3322] border border-[#D8D6CC] shadow-2xs backdrop-blur-xs">
+                        🏫 03. 교실 규칙 &amp; 경청
+                      </span>
+                    </div>
+                    <div>
+                      <p class="text-[#FAF9F5] text-sm sm:text-base font-bold leading-snug drop-shadow-md font-serif">
+                        &ldquo;매일 아침이 편안해지고, 학교 가는 발걸음이 즐거워집니다&rdquo;
+                      </p>
+                      <span class="text-[#D8D6CC] text-[11px] sm:text-xs mt-1 block">학교 적응 &bull; #규칙이해 #단체지시이행</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 4: 또래 사회성 (친구 관계) -->
+                <div class="habit-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0 pointer-events-none" data-index="3">
+                  <img src="images/ghibli_peer_social.jpg" alt="한국 어린이들이 다정하게 장난감을 나누는 지브리 일러스트" class="w-full h-full object-cover" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#1E2317]/90 via-[#1E2317]/35 to-transparent flex flex-col justify-between p-4 sm:p-4.5">
+                    <div class="flex items-center justify-between">
+                      <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-[#FAF9F5]/95 text-[#2C3322] border border-[#D8D6CC] shadow-2xs backdrop-blur-xs">
+                        🤝 04. 친구 관계 &amp; 소통
+                      </span>
+                    </div>
+                    <div>
+                      <p class="text-[#FAF9F5] text-sm sm:text-base font-bold leading-snug drop-shadow-md font-serif">
+                        &ldquo;친구 표정을 살피며 양보하고 갈등을 대화로 해결합니다&rdquo;
+                      </p>
+                      <span class="text-[#D8D6CC] text-[11px] sm:text-xs mt-1 block">또래 사회성 &bull; #공감과소통 #갈등해결</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card News Top-Right Counter -->
+                <div class="absolute top-3.5 right-3.5 z-20 px-2.5 py-0.5 rounded-full bg-black/45 backdrop-blur-xs text-white text-[11px] font-bold border border-white/20 tracking-wider">
+                  <span id="cardNewsPage">1</span> / 4
+                </div>
+
+                <!-- Card News Bottom Progress Dots -->
+                <div class="absolute bottom-2.5 right-4 z-20 flex items-center gap-1.5">
+                  <button type="button" class="card-dot w-5 h-1.5 rounded-full bg-white transition-all duration-300" aria-label="1번 스스로 정리 슬라이드" data-index="0"></button>
+                  <button type="button" class="card-dot w-1.5 h-1.5 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300" aria-label="2번 몰입과 착석 슬라이드" data-index="1"></button>
+                  <button type="button" class="card-dot w-1.5 h-1.5 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300" aria-label="3번 교실 규칙 슬라이드" data-index="2"></button>
+                  <button type="button" class="card-dot w-1.5 h-1.5 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300" aria-label="4번 또래 사회성 슬라이드" data-index="3"></button>
+                </div>
+
+                <!-- Prev/Next Controls (Hover on Desktop) -->
+                <button type="button" id="cardNewsPrev" class="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-7 h-7 rounded-full bg-black/35 hover:bg-black/60 text-white flex items-center justify-center transition opacity-0 group-hover:opacity-100" aria-label="이전 카드">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/></svg>
+                </button>
+                <button type="button" id="cardNewsNext" class="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-7 h-7 rounded-full bg-black/35 hover:bg-black/60 text-white flex items-center justify-center transition opacity-0 group-hover:opacity-100" aria-label="다음 카드">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+                </button>
+
+              </div>
+
+              <!-- 3 Key Metrics (또래 관계 설명 한 줄 노출 완벽 보장) -->
+              <div class="space-y-2">
+                <div class="habit-metric-item p-3 sm:p-3.5 rounded-2xl bg-[#F4F3EC] border border-[#D8D6CC] flex items-center gap-2.5 sm:gap-3 transition cursor-pointer hover:border-[#7D955E]" data-slide="0">
+                  <span class="text-xs sm:text-sm font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-1 rounded-md shrink-0">자립 루틴</span>
+                  <span class="text-[#2C3322] text-xs sm:text-[13px] xl:text-sm font-medium tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">스스로 물건을 정리하고 가방을 챙기는 습관</span>
+                </div>
+                <div class="habit-metric-item p-3 sm:p-3.5 rounded-2xl bg-[#F4F3EC] border border-[#D8D6CC] flex items-center gap-2.5 sm:gap-3 transition cursor-pointer hover:border-[#7D955E]" data-slide="2">
+                  <span class="text-xs sm:text-sm font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-1 rounded-md shrink-0">학교 적응</span>
+                  <span class="text-[#2C3322] text-xs sm:text-[13px] xl:text-sm font-medium tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">40분 수업 착석 유지와 단체 지시이행 훈련</span>
+                </div>
+                <div class="habit-metric-item p-3 sm:p-3.5 rounded-2xl bg-[#F4F3EC] border border-[#D8D6CC] flex items-center gap-2.5 sm:gap-3 transition cursor-pointer hover:border-[#7D955E]" data-slide="3">
+                  <span class="text-xs sm:text-sm font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-1 rounded-md shrink-0">또래 관계</span>
+                  <span class="text-[#2C3322] text-xs sm:text-[13px] xl:text-sm font-medium tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">친구 상황을 살피고 갈등을 대화로 해결하는 소그룹</span>
                 </div>
               </div>
 
-              <!-- 3 Key Metrics -->
-              <div class="space-y-2.5">
-                <div class="p-3.5 rounded-2xl bg-[#F4F3EC] border border-[#D8D6CC] flex items-center gap-3">
-                  <span class="text-xs sm:text-sm font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-1 rounded-md shrink-0">자립 루틴</span>
-                  <span class="text-[#2C3322] text-sm sm:text-base font-medium">스스로 물건을 정리하고 가방을 챙기는 습관</span>
-                </div>
-                <div class="p-3.5 rounded-2xl bg-[#F4F3EC] border border-[#D8D6CC] flex items-center gap-3">
-                  <span class="text-xs sm:text-sm font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-1 rounded-md shrink-0">학교 적응</span>
-                  <span class="text-[#2C3322] text-sm sm:text-base font-medium">40분 수업 착석 유지와 단체 지시이행 훈련</span>
-                </div>
-                <div class="p-3.5 rounded-2xl bg-[#F4F3EC] border border-[#D8D6CC] flex items-center gap-3">
-                  <span class="text-xs sm:text-sm font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-1 rounded-md shrink-0">또래 관계</span>
-                  <span class="text-[#2C3322] text-sm sm:text-base font-medium">친구 상황을 살피고 갈등을 대화로 해결하는 소그룹</span>
-                </div>
-              </div>
             </div>
           </div>
 

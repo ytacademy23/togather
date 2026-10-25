@@ -112,6 +112,120 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // 5. Hero Habit Card News Slider (4가지 성장 습관 5초 자동 전환)
+  const habitCardNews = document.getElementById('habitCardNews');
+  if (habitCardNews) {
+    const slides = habitCardNews.querySelectorAll('.habit-slide');
+    const dots = habitCardNews.querySelectorAll('.card-dot');
+    const pageCounter = document.getElementById('cardNewsPage');
+    const prevBtn = document.getElementById('cardNewsPrev');
+    const nextBtn = document.getElementById('cardNewsNext');
+    const metricItems = document.querySelectorAll('.habit-metric-item');
+    let currentIndex = 0;
+    let slideTimer = null;
+
+    function showSlide(index) {
+      if (!slides.length) return;
+      if (index < 0) index = slides.length - 1;
+      if (index >= slides.length) index = 0;
+      currentIndex = index;
+
+      // Update Slides
+      slides.forEach((slide, i) => {
+        if (i === currentIndex) {
+          slide.classList.remove('opacity-0', 'pointer-events-none', 'z-0');
+          slide.classList.add('opacity-100', 'z-10');
+        } else {
+          slide.classList.remove('opacity-100', 'z-10');
+          slide.classList.add('opacity-0', 'pointer-events-none', 'z-0');
+        }
+      });
+
+      // Update Pagination Dots
+      dots.forEach((dot, i) => {
+        if (i === currentIndex) {
+          dot.classList.remove('w-1.5', 'bg-white/50');
+          dot.classList.add('w-5', 'bg-white');
+        } else {
+          dot.classList.remove('w-5', 'bg-white');
+          dot.classList.add('w-1.5', 'bg-white/50');
+        }
+      });
+
+      // Update Page Counter
+      if (pageCounter) {
+        pageCounter.textContent = currentIndex + 1;
+      }
+
+      // Sync Metric Items (Highlight active habit)
+      metricItems.forEach(item => {
+        const targetSlide = parseInt(item.getAttribute('data-slide') || '-1', 10);
+        if (targetSlide === currentIndex) {
+          item.classList.add('border-[#7D955E]', 'bg-[#EEF3E8]/70');
+          item.classList.remove('bg-[#F4F3EC]', 'border-[#D8D6CC]');
+        } else {
+          item.classList.remove('border-[#7D955E]', 'bg-[#EEF3E8]/70');
+          item.classList.add('bg-[#F4F3EC]', 'border-[#D8D6CC]');
+        }
+      });
+    }
+
+    function startTimer() {
+      stopTimer();
+      slideTimer = setInterval(() => {
+        showSlide(currentIndex + 1);
+      }, 5000);
+    }
+
+    function stopTimer() {
+      if (slideTimer) {
+        clearInterval(slideTimer);
+        slideTimer = null;
+      }
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        showSlide(currentIndex - 1);
+        startTimer();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        showSlide(currentIndex + 1);
+        startTimer();
+      });
+    }
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetIndex = parseInt(dot.getAttribute('data-index') || '0', 10);
+        showSlide(targetIndex);
+        startTimer();
+      });
+    });
+
+    metricItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const targetSlide = parseInt(item.getAttribute('data-slide') || '0', 10);
+        showSlide(targetSlide);
+        startTimer();
+      });
+    });
+
+    // Pause on hover
+    habitCardNews.addEventListener('mouseenter', stopTimer);
+    habitCardNews.addEventListener('mouseleave', startTimer);
+
+    // Initial Start (5 seconds interval)
+    showSlide(0);
+    startTimer();
+  }
 });
 
 // 5. Post Article Modal Logic (for posts.html and index.html preview)
