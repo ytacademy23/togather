@@ -199,50 +199,28 @@
     </div>
   </header>
 
-  <!-- Mobile Drawer Menu -->
-  <div id="mobileMenuOverlay" class="fixed inset-0 z-[60] bg-black/40 backdrop-blur-xs hidden opacity-0 transition-opacity duration-300"></div>
-  <div id="mobileMenuDrawer" class="fixed top-0 right-0 z-[60] w-80 max-w-[85vw] h-full bg-[#FAF9F5] border-l border-[#D8D6CC] shadow-2xl transform translate-x-full transition-transform duration-300 flex flex-col">
+  <!-- Mobile Drawer Menu (심플하고 정갈한 5대 메뉴 단일 링크 통일) -->
+  <div id="mobileMenuOverlay" class="fixed inset-0 bg-slate-900/60 z-[60] hidden opacity-0 transition-opacity"></div>
+  <div id="mobileMenuDrawer" class="fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-white z-[60] shadow-2xl transform translate-x-full transition-transform flex flex-col border-l border-[#D8D6CC]">
     <div class="p-5 border-b border-[#D8D6CC] flex items-center justify-between">
       <div class="flex items-center gap-2.5">
-        <img src="images/ci_symbol.png" alt="YT 마크" class="w-8 h-8 rounded-lg object-contain bg-white p-0.5 border border-[#D8D6CC]" />
-        <span class="font-bold text-[#2C3322] font-serif">YT 심리발달 아카데미</span>
+        <img src="images/ci_symbol.png" alt="YT 로고" class="w-8 h-8 rounded-lg" />
+        <span class="font-bold text-[#2C3322] text-sm">YT 심리발달 아카데미</span>
       </div>
-      <button id="closeMobileMenuBtn" class="p-2 text-[#5F6156] hover:text-[#2C3322]" aria-label="메뉴 닫기">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      <button id="closeMobileMenuBtn" class="p-2 rounded-lg text-[#8D8B84] hover:bg-[#EEF3E8] hover:text-[#2C3322]" aria-label="메뉴 닫기">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
       </button>
     </div>
-    <div class="flex-1 overflow-y-auto p-5 space-y-4 text-sm font-medium text-[#2C3322]">
-      <div>
-        <a href="about.html" class="block font-bold py-2 text-[#2C3322]">아카데미 소개</a>
-        <div class="pl-3 space-y-1 text-xs text-[#5F6156]">
-          <a href="about.html#intro" class="block py-1">인사말 & 철학</a>
-          <a href="about.html#system" class="block py-1">슈퍼비전 시스템</a>
-          <a href="about.html#gallery" class="block py-1">센터 둘러보기</a>
-        </div>
-      </div>
-      <div class="pt-2 border-t border-[#D8D6CC]/70">
-        <a href="programs.html" class="block font-bold py-2 text-[#2C3322]">프로그램 안내</a>
-        <div class="pl-3 space-y-1 text-xs text-[#5F6156]">
-          <a href="programs.html#aba" class="block py-1">ABA 조기집중교실</a>
-          <a href="programs.html#school" class="block py-1">예비초등 학교준비반</a>
-          <a href="programs.html#social" class="block py-1">사회기술학습 (SST)</a>
-          <a href="programs.html#individual" class="block py-1">1:1 개별치료</a>
-          <a href="programs.html#evaluation" class="block py-1">심층 발달평가</a>
-        </div>
-      </div>
-      <div class="pt-2 border-t border-[#D8D6CC]/70">
-        <a href="team.html" class="block font-bold py-2 text-[#2C3322]">전문가 소개</a>
-      </div>
-      <div class="pt-2 border-t border-[#D8D6CC]/70">
-        <a href="posts.html" class="block font-bold py-2 text-[#2C3322]">소통 & 칼럼</a>
-      </div>
-      <div class="pt-2 border-t border-[#D8D6CC]/70">
-        <a href="location.html" class="block font-bold py-2 text-[#2C3322]">오시는 길</a>
-      </div>
-      <div class="pt-4">
-        <a href="https://blog.naver.com/ytree_academy" target="_blank" rel="noopener" class="block w-full py-3 rounded-2xl bg-[#2C3322] text-[#FAF9F5] text-center font-bold text-xs shadow-md">
-          네이버 공식 블로그 바로가기 &rarr;
-        </a>
+    <div class="p-5 overflow-y-auto flex-1 space-y-4 text-sm font-medium">
+      <a href="about.html" class="block py-2 text-[#3A3E31] hover:text-[#7D955E]">아카데미 소개</a>
+      <a href="programs.html" class="block py-2 text-[#3A3E31] hover:text-[#7D955E]">프로그램 안내</a>
+      <a href="team.html" class="block py-2 text-[#3A3E31] hover:text-[#7D955E]">전문가 소개</a>
+      <a href="posts.html" class="block py-2 text-[#3A3E31] hover:text-[#7D955E]">소통공간 & 칼럼</a>
+      <a href="location.html" class="block py-2 text-[#3A3E31] hover:text-[#7D955E]">오시는 길 & 이용안내</a>
+      <div class="pt-4 border-t border-[#D8D6CC]">
+        <a href="tel:031-795-8641" class="block py-2 font-bold text-[#2C3322] hover:text-[#7D955E]">📞 031-795-8641</a>
       </div>
     </div>
   </div>
