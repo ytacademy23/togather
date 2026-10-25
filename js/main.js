@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const copyAddressBtns = document.querySelectorAll('.copy-address-btn');
   copyAddressBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      const address = btn.getAttribute('data-address') || '경기도 하남시 미사강변남로 103 (망월동, 미사랑데르 3차)';
+      const address = btn.getAttribute('data-address') || '경기 하남시 미사강변남로 103 4층 406,407호 (망월동, 미사랑데르 3차)';
       navigator.clipboard.writeText(address).then(() => {
         const originalText = btn.innerHTML;
         btn.innerHTML = `<span class="text-emerald-600 font-bold">✓ 주소가 복사되었습니다</span>`;
