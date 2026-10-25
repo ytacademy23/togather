@@ -229,7 +229,7 @@
   <main class="flex-1">
 
     <!-- 1. Hero Section (Atmospheric Full-Bleed Sanctuary: Gentle Space Depth + Centered Editorial Typography) -->
-    <section class="relative min-h-[calc(100vh-80px)] flex flex-col justify-between items-center text-center py-12 lg:py-0 overflow-hidden border-b border-[#D8D6CC] bg-[#FAF9F5]">
+    <section class="relative min-h-[calc(100vh-80px)] flex flex-col justify-between items-center text-center pt-3 pb-8 sm:py-12 lg:py-0 overflow-hidden border-b border-[#D8D6CC] bg-[#FAF9F5]">
       
       <!-- Kinfolk Forest Line Art Ambient Background (4대 성장 습관과 통일된 숲 선화 일러스트 배경) -->
       <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
@@ -240,14 +240,17 @@
       </div>
 
       <!-- Main Centered Content -->
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full my-auto py-10 sm:py-16 relative z-10 flex flex-col items-center">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-2 pb-6 sm:py-12 sm:my-auto relative z-10 flex flex-col items-center">
         
-        <!-- Category Tag -->
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ECEBE4]/60 border border-[#D8D6CC] text-xs sm:text-sm font-semibold text-[#2C3322] mb-6 sm:mb-8 shadow-2xs">
-          <span class="w-2 h-2 rounded-full bg-[#7D955E]"></span>
-          <span class="font-cormorant font-bold uppercase tracking-[0.18em] text-[#7D955E]">Growth Care</span>
-          <span class="text-[#D8D6CC]">|</span>
-          <span class="text-xs sm:text-sm text-[#5F6156] font-medium">하남미사 아동 발달 · 행동과학 전문기관</span>
+        <!-- Category Tag (상단 여백 축소 & 정갈한 2줄 줄바꿈) -->
+        <div class="inline-flex items-center gap-2.5 sm:gap-3 px-4 py-2 sm:py-2.5 rounded-2xl sm:rounded-full bg-[#ECEBE4]/80 border border-[#D8D6CC] text-xs sm:text-sm font-semibold text-[#2C3322] mb-5 sm:mb-7 shadow-2xs">
+          <span class="w-2 h-2 rounded-full bg-[#7D955E] shrink-0"></span>
+          <span class="font-cormorant font-bold uppercase tracking-[0.18em] text-[#7D955E] shrink-0">Growth Care</span>
+          <span class="text-[#D8D6CC] shrink-0">|</span>
+          <span class="text-xs sm:text-sm text-[#5F6156] font-medium text-left leading-snug">
+            하남미사 아동 발달<br />
+            행동과학 전문기관
+          </span>
         </div>
 
         <!-- Monumental Centered Headline (좌우 자간 & 상하 행간 여유롭게 확장) -->
@@ -274,13 +277,20 @@
           </a>
         </div>
 
-        <!-- Centered Trust Highlights -->
-        <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-[#8D8B84] pt-4 border-t border-[#D8D6CC]/50 max-w-xl w-full">
-          <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span> 10년 임상 수련 노하우</span>
-          <span class="text-[#D8D6CC]">&bull;</span>
-          <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span> BCBA 국제공인 슈퍼비전</span>
-          <span class="text-[#D8D6CC]">&bull;</span>
-          <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span> 100% 사전 예약제</span>
+        <!-- Centered Trust Highlights (정갈한 3줄 정렬 & 컴팩트 폰트) -->
+        <div class="flex flex-col items-center justify-center gap-1.5 sm:gap-2 text-[11px] sm:text-xs text-[#7A786F] pt-4 border-t border-[#D8D6CC]/50 max-w-xs sm:max-w-md w-full">
+          <span class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span>
+            <span>10년 임상 수련 노하우</span>
+          </span>
+          <span class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span>
+            <span>BCBA 국제공인 슈퍼비전</span>
+          </span>
+          <span class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#7D955E]"></span>
+            <span>100% 사전 예약제</span>
+          </span>
         </div>
 
       </div>
