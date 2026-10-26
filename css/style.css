@@ -252,3 +252,24 @@ body {
 .site-footer .footer-copy a:hover {
   color: #A8A599 !important;
 }
+
+/* ============================================================
+   Header Scroll Transparency (스크롤 다운 시 투명 글래스모피즘 효과)
+   ============================================================ */
+header {
+  transition: background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              backdrop-filter 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              -webkit-backdrop-filter 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* 스크롤 시 반투명하게 변하는 상단 메뉴 */
+header.header-scrolled {
+  background-color: rgba(250, 249, 245, 0.45) !important;
+  backdrop-filter: blur(16px) saturate(140%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(140%) !important;
+  border-bottom-color: rgba(216, 214, 204, 0.45) !important;
+  box-shadow: 0 1px 3px rgba(44, 51, 34, 0.03) !important;
+}
+

@@ -45,15 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 2. Sticky Header Scroll Effect
+  // 2. Sticky Header Scroll Effect (스크롤 시 상단 메뉴 투명화)
   const header = document.querySelector('header');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 30) {
-      header?.classList.add('shadow-md', 'bg-white/95');
-      header?.classList.remove('shadow-xs');
+  function handleHeaderScroll() {
+    if (window.scrollY > 20) {
+      header?.classList.add('header-scrolled');
     } else {
-      header?.classList.remove('shadow-md');
-      header?.classList.add('shadow-xs');
+      header?.classList.remove('header-scrolled');
     }
 
     // Scroll to Top Button Visibility
@@ -67,7 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
         scrollToTopBtn.classList.remove('opacity-100');
       }
     }
-  });
+  }
+
+  window.addEventListener('scroll', handleHeaderScroll, { passive: true });
+  handleHeaderScroll();
 
   // Scroll to Top Click
   const scrollToTopBtn = document.getElementById('scrollToTopBtn');
