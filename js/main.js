@@ -36,6 +36,15 @@ document.addEventListener('DOMContentLoaded', () => {
   if (closeMobileMenuBtn) closeMobileMenuBtn.addEventListener('click', closeMobileMenu);
   if (mobileMenuOverlay) mobileMenuOverlay.addEventListener('click', closeMobileMenu);
 
+  // Close drawer when any anchor inside mobileMenuDrawer is clicked
+  if (mobileMenuDrawer) {
+    mobileMenuDrawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        closeMobileMenu();
+      });
+    });
+  }
+
   // 2. Sticky Header Scroll Effect
   const header = document.querySelector('header');
   window.addEventListener('scroll', () => {
