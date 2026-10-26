@@ -153,3 +153,102 @@ body {
     scroll-padding-top: 4rem;
   }
 }
+
+
+/* ============================================================
+   Compact & Subdued Footer Styles (모바일/데스크톱 하단 축소 디자인)
+   ============================================================ */
+.site-footer {
+  font-size: 11px !important;
+  line-height: 1.55 !important;
+  color: #828078 !important;
+  background-color: #1A1E14 !important;
+  border-top: 1px solid #282E20 !important;
+  padding-top: 1.75rem !important;
+  padding-bottom: 1.75rem !important;
+}
+
+@media (min-width: 640px) {
+  .site-footer {
+    padding-top: 2.25rem !important;
+    padding-bottom: 2.25rem !important;
+  }
+}
+
+.site-footer .footer-brand-title {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #C2BFB2 !important;
+  line-height: 1.2 !important;
+}
+
+.site-footer .footer-brand-sub {
+  font-size: 10px !important;
+  color: #6E8453 !important;
+  letter-spacing: 0.05em !important;
+  line-height: 1.1 !important;
+}
+
+.site-footer .footer-desc {
+  font-size: 11px !important;
+  line-height: 1.5 !important;
+  color: #828078 !important;
+}
+
+.site-footer .footer-section-title {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #B2AFA2 !important;
+  line-height: 1.3 !important;
+}
+
+.site-footer .footer-info-text,
+.site-footer .footer-info-text p,
+.site-footer .footer-info-text span {
+  font-size: 11px !important;
+  line-height: 1.55 !important;
+  color: #828078 !important;
+}
+
+.site-footer .footer-info-label {
+  color: #9E9C91 !important;
+  font-weight: 500 !important;
+}
+
+.site-footer .footer-info-text a {
+  color: #A8A599 !important;
+  text-decoration: none !important;
+}
+
+.site-footer .footer-info-text a:hover {
+  color: #D8D6CC !important;
+  text-decoration: underline !important;
+}
+
+.site-footer .footer-chip {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 3px !important;
+  font-size: 10.5px !important;
+  line-height: 1 !important;
+  padding: 3px 7px !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  transition: all 0.15s ease !important;
+}
+
+.site-footer .footer-copy {
+  font-size: 10.5px !important;
+  color: #605E57 !important;
+  line-height: 1.4 !important;
+}
+
+.site-footer .footer-copy a {
+  color: #7A7870 !important;
+  text-decoration: none !important;
+}
+
+.site-footer .footer-copy a:hover {
+  color: #A8A599 !important;
+}
