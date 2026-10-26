@@ -306,130 +306,119 @@
   </section>
 
     <!-- Care Categories (성장 단계별 맞춤 프로그램 5대 카테고리 퀵 내비게이션) -->
-  <section class="py-12 sm:py-16 bg-[#ECEBE4]/50 border-b border-[#D8D6CC]">
+  <section class="py-12 sm:py-14 bg-[#ECEBE4]/50 border-b border-[#D8D6CC]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10">
-        <div>
-          <span class="font-cormorant text-sm font-bold uppercase tracking-[0.2em] text-[#7D955E] block mb-2">Care Categories</span>
-          <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] tracking-tight font-serif">
-            성장 단계별 맞춤 프로그램
-          </h2>
-          <p class="text-xs sm:text-sm text-[#5F6156] mt-1.5">
-            아동의 발달 시기와 필요에 맞춰 설계된 체계적인 임상 치료 과정입니다.
-          </p>
-        </div>
+      <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+        <span class="font-cormorant text-sm font-bold uppercase tracking-[0.2em] text-[#7D955E] block mb-1.5">Care Categories</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] tracking-tight font-serif">
+          성장 단계별 맞춤 프로그램
+        </h2>
+        <p class="text-xs sm:text-sm text-[#5F6156] mt-1.5">
+          아동의 발달 시기와 필요에 맞춰 설계된 체계적인 5대 임상 치료 과정입니다.
+        </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+      <!-- Unified 5-Column Responsive Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5 sm:gap-4">
         
-        <!-- Program 1: ABA -->
-        <a href="#aba" class="bg-[#FAF9F5] rounded-3xl p-6 border border-[#D8D6CC] hover:shadow-md hover:border-[#7D955E]/50 transition flex flex-col justify-between group">
+        <!-- Category 1 -->
+        <a href="#aba" class="bg-[#FAF9F5] rounded-2xl p-4 sm:p-5 border border-[#D8D6CC] hover:border-[#7D955E] hover:shadow-md transition flex flex-col justify-between group">
           <div>
-            <div class="flex items-center justify-between mb-3">
-              <span class="text-xs font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-0.5 rounded-full">조기개입 & 집중행동</span>
-              <span class="text-xs text-[#8D8B84]">BCBA 슈퍼비전</span>
+            <div class="flex items-center justify-between mb-2.5">
+              <span class="w-6 h-6 rounded-lg bg-[#EEF3E8] text-[#5B7340] font-bold text-xs flex items-center justify-center font-serif">01</span>
+              <span class="text-[11px] font-medium text-[#7D955E]">만 2~7세</span>
             </div>
-            <h3 class="text-lg sm:text-xl font-bold text-[#2C3322] font-serif mb-2 group-hover:text-[#7D955E] transition-colors">ABA 조기집중교실</h3>
-            <p class="text-xs sm:text-sm text-[#3A3E31] leading-relaxed mb-3">
-              응용행동분석 원리를 기반으로 자발적 언어 요구 표현 및 문제행동 대체 중재를 이끕니다.
+            <h3 class="text-sm sm:text-base font-bold text-[#2C3322] font-serif group-hover:text-[#7D955E] transition-colors mb-1.5 leading-snug">
+              ABA 조기집중교실
+            </h3>
+            <p class="text-xs text-[#5F6156] leading-relaxed line-clamp-2">
+              행동분석 기반 자발적 언어 및 문제행동 대체 중재
             </p>
-            <div class="flex flex-wrap gap-1.5">
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#조기집중</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#자발적언어</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#대체행동형성</span>
-            </div>
           </div>
-          <div class="pt-4 mt-4 border-t border-[#D8D6CC] text-xs sm:text-sm font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
-            <span>세부 커리큘럼 보기</span> &rarr;
+          <div class="pt-3 mt-3 border-t border-[#ECEBE4] text-xs font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
+            <span>상세보기</span>
+            <span>&darr;</span>
           </div>
         </a>
 
-        <!-- Program 2: School Prep -->
-        <a href="#school" class="bg-[#FAF9F5] rounded-3xl p-6 border border-[#D8D6CC] hover:shadow-md hover:border-[#7D955E]/50 transition flex flex-col justify-between group">
+        <!-- Category 2 -->
+        <a href="#school" class="bg-[#FAF9F5] rounded-2xl p-4 sm:p-5 border border-[#D8D6CC] hover:border-[#7D955E] hover:shadow-md transition flex flex-col justify-between group">
           <div>
-            <div class="flex items-center justify-between mb-3">
-              <span class="text-xs font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-0.5 rounded-full">5년 연속 검증</span>
-              <span class="text-xs text-[#8D8B84]">초등 입학 적응</span>
+            <div class="flex items-center justify-between mb-2.5">
+              <span class="w-6 h-6 rounded-lg bg-[#EEF3E8] text-[#5B7340] font-bold text-xs flex items-center justify-center font-serif">02</span>
+              <span class="text-[11px] font-medium text-[#7D955E]">7세~취학 전</span>
             </div>
-            <h3 class="text-lg sm:text-xl font-bold text-[#2C3322] font-serif mb-2 group-hover:text-[#7D955E] transition-colors">예비초등 학교준비반</h3>
-            <p class="text-xs sm:text-sm text-[#3A3E31] leading-relaxed mb-3">
-              실제 교실과 동일한 모의 환경에서 40분 착석, 단체 지시이행, 알림장 챙기기를 연습합니다.
+            <h3 class="text-sm sm:text-base font-bold text-[#2C3322] font-serif group-hover:text-[#7D955E] transition-colors mb-1.5 leading-snug">
+              예비초등 학교준비반
+            </h3>
+            <p class="text-xs text-[#5F6156] leading-relaxed line-clamp-2">
+              실제 교실 모의 훈련을 통한 40분 착석 & 규칙 체화
             </p>
-            <div class="flex flex-wrap gap-1.5">
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#40분착석</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#모의수업</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#교실규칙</span>
-            </div>
           </div>
-          <div class="pt-4 mt-4 border-t border-[#D8D6CC] text-xs sm:text-sm font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
-            <span>세부 커리큘럼 보기</span> &rarr;
+          <div class="pt-3 mt-3 border-t border-[#ECEBE4] text-xs font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
+            <span>상세보기</span>
+            <span>&darr;</span>
           </div>
         </a>
 
-        <!-- Program 3: SST -->
-        <a href="#social" class="bg-[#FAF9F5] rounded-3xl p-6 border border-[#D8D6CC] hover:shadow-md hover:border-[#7D955E]/50 transition flex flex-col justify-between group">
+        <!-- Category 3 -->
+        <a href="#social" class="bg-[#FAF9F5] rounded-2xl p-4 sm:p-5 border border-[#D8D6CC] hover:border-[#7D955E] hover:shadow-md transition flex flex-col justify-between group">
           <div>
-            <div class="flex items-center justify-between mb-3">
-              <span class="text-xs font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-0.5 rounded-full">2~4인 소그룹</span>
-              <span class="text-xs text-[#8D8B84]">또래 관계</span>
+            <div class="flex items-center justify-between mb-2.5">
+              <span class="w-6 h-6 rounded-lg bg-[#EEF3E8] text-[#5B7340] font-bold text-xs flex items-center justify-center font-serif">03</span>
+              <span class="text-[11px] font-medium text-[#7D955E]">유아~초등</span>
             </div>
-            <h3 class="text-lg sm:text-xl font-bold text-[#2C3322] font-serif mb-2 group-hover:text-[#7D955E] transition-colors">사회기술학습 (SST)</h3>
-            <p class="text-xs sm:text-sm text-[#3A3E31] leading-relaxed mb-3">
-              친구의 비언어적 신호를 이해하고 양보하기, 대화 이어가기, 갈등 해결 방식을 체득합니다.
+            <h3 class="text-sm sm:text-base font-bold text-[#2C3322] font-serif group-hover:text-[#7D955E] transition-colors mb-1.5 leading-snug">
+              사회기술학습 (SST)
+            </h3>
+            <p class="text-xs text-[#5F6156] leading-relaxed line-clamp-2">
+              소그룹 또래 관계, 눈치 포착, 협동 및 갈등 해결
             </p>
-            <div class="flex flex-wrap gap-1.5">
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#소그룹활동</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#양보협상</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#갈등해결</span>
-            </div>
           </div>
-          <div class="pt-4 mt-4 border-t border-[#D8D6CC] text-xs sm:text-sm font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
-            <span>세부 커리큘럼 보기</span> &rarr;
+          <div class="pt-3 mt-3 border-t border-[#ECEBE4] text-xs font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
+            <span>상세보기</span>
+            <span>&darr;</span>
           </div>
         </a>
 
-        <!-- Program 4: 1:1 Therapies -->
-        <a href="#individual" class="bg-[#FAF9F5] rounded-3xl p-6 border border-[#D8D6CC] hover:shadow-md hover:border-[#7D955E]/50 transition flex flex-col justify-between group">
+        <!-- Category 4 -->
+        <a href="#individual" class="bg-[#FAF9F5] rounded-2xl p-4 sm:p-5 border border-[#D8D6CC] hover:border-[#7D955E] hover:shadow-md transition flex flex-col justify-between group">
           <div>
-            <div class="flex items-center justify-between mb-3">
-              <span class="text-xs font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-0.5 rounded-full">1:1 맞춤형</span>
-              <span class="text-xs text-[#8D8B84]">전문 임상</span>
+            <div class="flex items-center justify-between mb-2.5">
+              <span class="w-6 h-6 rounded-lg bg-[#EEF3E8] text-[#5B7340] font-bold text-xs flex items-center justify-center font-serif">04</span>
+              <span class="text-[11px] font-medium text-[#7D955E]">개별 맞춤</span>
             </div>
-            <h3 class="text-lg sm:text-xl font-bold text-[#2C3322] font-serif mb-2 group-hover:text-[#7D955E] transition-colors">1:1 언어·놀이·인지치료</h3>
-            <p class="text-xs sm:text-sm text-[#3A3E31] leading-relaxed mb-3">
-              아이의 기질과 취약 영역에 맞추어 언어 표현, 정서 표현, 주의집중력을 개별화하여 촉진합니다.
+            <h3 class="text-sm sm:text-base font-bold text-[#2C3322] font-serif group-hover:text-[#7D955E] transition-colors mb-1.5 leading-snug">
+              1:1 언어·놀이·인지
+            </h3>
+            <p class="text-xs text-[#5F6156] leading-relaxed line-clamp-2">
+              언어 촉진, 놀이 심리 치유, 인지 및 집중력 훈련
             </p>
-            <div class="flex flex-wrap gap-1.5">
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#언어재활</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#놀이심리</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#인지학습</span>
-            </div>
           </div>
-          <div class="pt-4 mt-4 border-t border-[#D8D6CC] text-xs sm:text-sm font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
-            <span>세부 커리큘럼 보기</span> &rarr;
+          <div class="pt-3 mt-3 border-t border-[#ECEBE4] text-xs font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
+            <span>상세보기</span>
+            <span>&darr;</span>
           </div>
         </a>
 
-        <!-- Program 5: Evaluation -->
-        <a href="#evaluation" class="bg-[#FAF9F5] rounded-3xl p-6 border border-[#D8D6CC] hover:shadow-md hover:border-[#7D955E]/50 transition flex flex-col justify-between group">
+        <!-- Category 5 -->
+        <a href="#evaluation" class="bg-[#FAF9F5] rounded-2xl p-4 sm:p-5 border border-[#D8D6CC] hover:border-[#7D955E] hover:shadow-md transition flex flex-col justify-between group col-span-2 sm:col-span-1">
           <div>
-            <div class="flex items-center justify-between mb-3">
-              <span class="text-xs font-bold text-[#5B7340] bg-[#EEF3E8] px-2.5 py-0.5 rounded-full">정밀 평가</span>
-              <span class="text-xs text-[#8D8B84]">성장 로드맵</span>
+            <div class="flex items-center justify-between mb-2.5">
+              <span class="w-6 h-6 rounded-lg bg-[#EEF3E8] text-[#5B7340] font-bold text-xs flex items-center justify-center font-serif">05</span>
+              <span class="text-[11px] font-medium text-[#7D955E]">정밀 진단</span>
             </div>
-            <h3 class="text-lg sm:text-xl font-bold text-[#2C3322] font-serif mb-2 group-hover:text-[#7D955E] transition-colors">심층 발달평가 & 초기상담</h3>
-            <p class="text-xs sm:text-sm text-[#3A3E31] leading-relaxed mb-3">
-              표준화 심리 검사와 세밀한 행동 관찰을 종합하여 현 발달 수준에 최적화된 로드맵을 수립합니다.
+            <h3 class="text-sm sm:text-base font-bold text-[#2C3322] font-serif group-hover:text-[#7D955E] transition-colors mb-1.5 leading-snug">
+              심층 발달평가 &amp; 상담
+            </h3>
+            <p class="text-xs text-[#5F6156] leading-relaxed line-clamp-2">
+              TCI 기질검사 및 종합 발달 분석, 1:1 맞춤 로드맵
             </p>
-            <div class="flex flex-wrap gap-1.5">
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#종합발달</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#기질검사</span>
-              <span class="text-xs font-bold text-[#2C3322] bg-[#F4F3EC] px-2 py-0.5 rounded border border-[#D8D6CC]">#행동평가</span>
-            </div>
           </div>
-          <div class="pt-4 mt-4 border-t border-[#D8D6CC] text-xs sm:text-sm font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
-            <span>세부 커리큘럼 보기</span> &rarr;
+          <div class="pt-3 mt-3 border-t border-[#ECEBE4] text-xs font-bold text-[#7D955E] group-hover:text-[#2C3322] flex items-center justify-between transition-colors">
+            <span>상세보기</span>
+            <span>&darr;</span>
           </div>
         </a>
 
@@ -437,260 +426,418 @@
     </div>
   </section>
 
-  <!-- Programs List -->
-  <section class="py-16 sm:py-24 bg-[#FAF9F5] border-b border-[#D8D6CC]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+  <!-- Programs List (통일성 있고 정갈한 5대 프로그램 상세 안내) -->
+  <section class="py-14 sm:py-20 bg-[#FAF9F5] border-b border-[#D8D6CC]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16">
 
       <!-- 1. ABA 조기집중교실 -->
-      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-10 bg-[#F4F3EC] shadow-sm" id="aba">
-        <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
-          <div class="space-y-4 max-w-2xl">
+      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-8 lg:p-10 bg-[#FAF9F5] shadow-xs" id="aba">
+        
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-6 border-b border-[#E7E5DC] mb-7">
+          <div class="space-y-1.5">
             <div class="flex items-center gap-2">
-              <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
+              <span class="w-2 h-2 rounded-full bg-[#7D955E]"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-[#7D955E] font-cormorant">Program 01</span>
+              <span class="text-[#D8D6CC]">|</span>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
                 조기개입 ∙ 행동치료
               </span>
-              <span class="text-xs sm:text-sm text-[#7D955E]">국제공인 BCBA 슈퍼비전</span>
             </div>
             <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] font-serif">
-              ABA 조기집중교실 (Applied Behavior Analysis)
+              ABA 조기집중교실 <span class="text-base sm:text-lg font-normal text-[#5F6156] font-sans block sm:inline mt-0.5 sm:mt-0">(Applied Behavior Analysis)</span>
             </h2>
-            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep">
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-[#7D955E] bg-[#EEF3E8] px-3.5 py-1.5 rounded-full border border-[#7D955E]/30 self-start sm:self-auto shrink-0 font-sans">
+            국제공인 BCBA 슈퍼비전
+          </div>
+        </div>
+
+        <!-- 2-Column Split -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <!-- Left (7 cols): Lead Text + 4 Curriculum Cards -->
+          <div class="lg:col-span-7 space-y-5">
+            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep font-sans">
               응용행동분석(ABA) 원리를 바탕으로 행동의 기능을 과학적으로 분석합니다. 문제행동을 감소시키고 자발적 언어와 긍정적 대체 의사소통 기술을 체계적으로 훈련합니다.
             </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">DTT (개별화 시도 교수)</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">주의집중, 모방, 언어 수용 등 기초 인지 발달 훈련</span>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">DTT (개별화 시도 교수)</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">주의집중, 모방, 언어 수용 등 기초 인지 발달 훈련</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">NET (자연 환경 교수)</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">자연스러운 놀이 맥락에서 자발적 요구와 소통 유도</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">NET (자연 환경 교수)</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">자연스러운 놀이 맥락에서 자발적 요구와 소통 유도</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">FCT (기능적 의사소통 훈련)</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">짜증이나 떼쓰기 대신 말/몸짓/카드로 표현하는 기술 훈련</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">FCT (기능적 의사소통 훈련)</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">짜증이나 떼쓰기 대신 말/몸짓/카드로 표현하는 기술 훈련</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">데이터 기반 진도 관리</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">매 세션 반응 데이터를 누적 기록하여 과학적 치료율 측정</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">데이터 기반 진도 관리</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">매 세션 반응 데이터를 누적 기록하여 과학적 치료율 측정</p>
               </div>
             </div>
           </div>
-          <div class="lg:w-80 shrink-0 bg-white p-6 rounded-2xl border border-[#D8D6CC] text-xs sm:text-sm space-y-3">
-            <h4 class="font-bold text-[#2C3322] text-base border-b border-[#D8D6CC] pb-2.5">프로그램 정보</h4>
-            <p><strong class="text-[#2C3322]">대상 아동:</strong> <span class="text-[#3A3E31]">만 2세 ~ 취학 전 영유아 및 발달지연·자폐스펙트럼 아동</span></p>
-            <p><strong class="text-[#2C3322]">진행 방식:</strong> <span class="text-[#3A3E31]">1:1 개별 집중 세션 및 소그룹 전환 세션</span></p>
-            <p><strong class="text-[#2C3322]">슈퍼바이저:</strong> <span class="text-[#3A3E31]">김태희 BCBA 행동분석가</span></p>
-            <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="block w-full text-center py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-sm mt-3 transition shadow-xs">
+
+          <!-- Right (5 cols): Photo + Specs Table + CTA -->
+          <div class="lg:col-span-5 bg-white p-5 sm:p-6 rounded-2xl border border-[#D8D6CC] shadow-2xs space-y-4">
+            <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#F4F3EC] border border-[#D8D6CC] relative group">
+              <img src="images/facility_safe_wall.jpg" alt="안전 패딩이 완비된 전문 개별 행동치료실" class="w-full h-full object-cover group-hover:scale-103 transition duration-500" />
+            </div>
+
+            <div class="space-y-2 text-xs sm:text-sm text-[#3A3E31] pt-1">
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">대상 아동</span>
+                <span class="text-[#2C3322] font-semibold text-right">만 2세 ~ 취학 전 영유아 및 발달지연 아동</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">진행 방식</span>
+                <span class="text-[#2C3322] font-semibold text-right">1:1 개별 집중 세션 및 소그룹 전환 세션</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">담당 연구진</span>
+                <span class="text-[#2C3322] font-semibold text-right">김태희 BCBA 총괄 슈퍼바이저</span>
+              </div>
+            </div>
+
+            <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="block w-full text-center py-2.5 sm:py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-xs sm:text-sm transition shadow-2xs">
               📝 온라인 신청서 작성 (구글 폼)
             </a>
           </div>
+
         </div>
+
       </div>
 
       <!-- 2. 예비초등 학교준비반 -->
-      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-10 bg-[#FAF9F5] shadow-sm" id="school">
-        <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
-          <div class="space-y-4 max-w-2xl">
+      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-8 lg:p-10 bg-[#FAF9F5] shadow-xs" id="school">
+        
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-6 border-b border-[#E7E5DC] mb-7">
+          <div class="space-y-1.5">
             <div class="flex items-center gap-2">
-              <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-bold bg-[#FBF6ED] text-[#C59141] border border-[#C59141]/30">
-                5년차 검증 노하우
+              <span class="w-2 h-2 rounded-full bg-[#7D955E]"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-[#7D955E] font-cormorant">Program 02</span>
+              <span class="text-[#D8D6CC]">|</span>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
+                초등 입학 적응
               </span>
-              <span class="text-xs sm:text-sm text-[#C59141] font-bold">예비초등 (7세~취학 전)</span>
             </div>
             <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] font-serif">
-              예비초등 학교준비반
+              예비초등 학교준비반 <span class="text-base sm:text-lg font-normal text-[#5F6156] font-sans block sm:inline mt-0.5 sm:mt-0">(School Readiness)</span>
             </h2>
-            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep">
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-[#7D955E] bg-[#EEF3E8] px-3.5 py-1.5 rounded-full border border-[#7D955E]/30 self-start sm:self-auto shrink-0 font-sans">
+            5년 차 검증 시그니처
+          </div>
+        </div>
+
+        <!-- 2-Column Split -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <!-- Left (7 cols): Lead Text + 4 Curriculum Cards -->
+          <div class="lg:col-span-7 space-y-5">
+            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep font-sans">
               실제 초등학교 교실과 동일한 모의 환경에서 40분 착석, 단체 지시이행, 알림장 정리, 또래 협동 과제를 집중 훈련하여 성공적인 학교 입학 적응을 이끕니다.
             </p>
 
-            <!-- Mini-Showcase for School Preparation -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2">
-              <div class="rounded-2xl overflow-hidden border border-[#D8D6CC] bg-white shadow-2xs">
-                <div class="aspect-16/10 overflow-hidden">
-                  <img src="images/facility_school_room.jpg" alt="교실에서 발표하고 경청하는 아이들" class="w-full h-full object-cover" />
-                </div>
-                <div class="p-3.5 text-xs sm:text-sm text-[#2C3322] font-medium">
-                  🏫 <strong>학교 규칙 & 교실 매너:</strong> 40분 착석, 손들고 발표하기, 단체 지시이행
-                </div>
-              </div>
-              <div class="rounded-2xl overflow-hidden border border-[#D8D6CC] bg-white shadow-2xs">
-                <div class="aspect-16/10 overflow-hidden">
-                  <img src="images/facility_safe_wall.jpg" alt="스스로 장난감과 가방을 정리하는 아이" class="w-full h-full object-cover" />
-                </div>
-                <div class="p-3.5 text-xs sm:text-sm text-[#2C3322] font-medium">
-                  🎒 <strong>스스로 정리하는 습관:</strong> 자기 물건 정돈, 가방 싸기, 알림장 챙기기
-                </div>
-              </div>
-            </div>
-
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">40분 수업 착석 & 집중</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">수업 종소리에 맞추어 착석하고 교사의 단체 지시를 따르는 훈련</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">40분 수업 착석 & 집중</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">수업 종소리에 맞추어 착석하고 교사의 단체 지시를 따르는 훈련</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">자기관리 & 물건 정리</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">가방 챙기기, 필기도구 관리, 화장실 다녀오기, 쉬는 시간 조절</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">자기관리 & 물건 정리</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">가방 챙기기, 필기도구 관리, 화장실 다녀오기, 쉬는 시간 조절</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">모둠 활동 & 또래 배려</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">모둠 과제 수행 시 자기 의견 말하기와 친구 의견 경청 연습</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">모둠 활동 & 또래 배려</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">모둠 과제 수행 시 자기 의견 말하기와 친구 의견 경청 연습</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">매월 보호자 브리핑</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">세션별 진도 및 적응도 피드백, 가정 내 입학 준비 코칭 제공</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">매월 보호자 브리핑</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">세션별 진도 및 적응도 피드백, 가정 내 입학 준비 코칭 제공</p>
               </div>
             </div>
           </div>
-          <div class="lg:w-80 shrink-0 bg-white p-6 rounded-2xl border border-[#D8D6CC] text-xs sm:text-sm space-y-3">
-            <h4 class="font-bold text-[#2C3322] text-base border-b border-[#D8D6CC] pb-2.5">모집 및 운영 안내</h4>
-            <p><strong class="text-[#2C3322]">모집 시기:</strong> <span class="text-[#3A3E31]">매년 정기 모집 (상반기/하반기 반 개설)</span></p>
-            <p><strong class="text-[#2C3322]">정원:</strong> <span class="text-[#3A3E31]">4~6명 내외 소그룹 (밀착 지도)</span></p>
-            <p><strong class="text-[#2C3322]">담당:</strong> <span class="text-[#3A3E31]">조유진 책임연구원 & 학교준비반 전문팀</span></p>
-            <button onclick="openPostModal('school-prep')" class="w-full text-center py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-sm mt-3 transition shadow-xs">
+
+          <!-- Right (5 cols): Photo + Specs Table + CTA -->
+          <div class="lg:col-span-5 bg-white p-5 sm:p-6 rounded-2xl border border-[#D8D6CC] shadow-2xs space-y-4">
+            <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#F4F3EC] border border-[#D8D6CC] relative group">
+              <img src="images/facility_school_room.jpg" alt="실제 초등학교 규격 책걸상이 갖춰진 모의 교실" class="w-full h-full object-cover group-hover:scale-103 transition duration-500" />
+            </div>
+
+            <div class="space-y-2 text-xs sm:text-sm text-[#3A3E31] pt-1">
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">모집 시기</span>
+                <span class="text-[#2C3322] font-semibold text-right">매년 정기 모집 (상반기 / 하반기 개설)</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">학급 정원</span>
+                <span class="text-[#2C3322] font-semibold text-right">4~6명 내외 소그룹 (밀착 개별 지도)</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">담당 연구진</span>
+                <span class="text-[#2C3322] font-semibold text-right">조유진 수석연구원 &amp; 학교준비반 전문팀</span>
+              </div>
+            </div>
+
+            <button onclick="openPostModal('school-prep')" class="w-full text-center py-2.5 sm:py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-xs sm:text-sm transition shadow-2xs">
               학교준비반 세부 안내 읽기
             </button>
           </div>
+
         </div>
+
       </div>
 
-      <!-- 3. 사회기술학습반 (사회성 그룹치료) -->
-      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-10 bg-[#F4F3EC] shadow-sm" id="social">
-        <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
-          <div class="space-y-4 max-w-2xl">
+      <!-- 3. 사회기술학습반 (SST 그룹 치료) -->
+      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-8 lg:p-10 bg-[#FAF9F5] shadow-xs" id="social">
+        
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-6 border-b border-[#E7E5DC] mb-7">
+          <div class="space-y-1.5">
             <div class="flex items-center gap-2">
-              <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
+              <span class="w-2 h-2 rounded-full bg-[#7D955E]"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-[#7D955E] font-cormorant">Program 03</span>
+              <span class="text-[#D8D6CC]">|</span>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
                 또래 관계 ∙ 사회기술
               </span>
-              <span class="text-xs sm:text-sm text-[#7D955E]">유아 및 초등 저학년·고학년</span>
             </div>
             <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] font-serif">
-              사회기술학습반 (사회성 그룹 치료)
+              사회기술학습반 <span class="text-base sm:text-lg font-normal text-[#5F6156] font-sans block sm:inline mt-0.5 sm:mt-0">(Social Skills Training)</span>
             </h2>
-            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep">
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-[#7D955E] bg-[#EEF3E8] px-3.5 py-1.5 rounded-full border border-[#7D955E]/30 self-start sm:self-auto shrink-0 font-sans">
+            2~4인 소그룹 매칭
+          </div>
+        </div>
+
+        <!-- 2-Column Split -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <!-- Left (7 cols): Lead Text + 4 Curriculum Cards -->
+          <div class="lg:col-span-7 space-y-5">
+            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep font-sans">
               또래의 비언어적 신호(표정, 뉘앙스)를 포착하고 대화 주고받기, 규칙 준수, 양보와 갈등 타협 기술을 안전한 소그룹 환경에서 체득합니다.
             </p>
 
-            <!-- Authentic Facility Preview for Social Skills -->
-            <div class="rounded-2xl overflow-hidden border border-[#D8D6CC] bg-white shadow-2xs my-2">
-              <div class="aspect-21/9 sm:aspect-3/1 overflow-hidden">
-                <img src="images/facility_sst_group.jpg" alt="친구들과 다정하게 장난감을 나누는 아이들" class="w-full h-full object-cover" />
-              </div>
-              <div class="p-3.5 text-xs sm:text-sm text-[#2C3322] font-medium">
-                🤝 <strong>또래 사회성 훈련:</strong> 눈치(사회적 단서) 포착, 놀이 규칙 지키기, 거절과 갈등 상황 대처법
-              </div>
-            </div>
-
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">사회적 단서 포착 (눈치 훈련)</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">상대의 얼굴 표정, 목소리 톤, 신체 언어 해석하기</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">사회적 단서 포착 (눈치 훈련)</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">상대의 얼굴 표정, 목소리 톤, 신체 언어 해석하기</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">대화 및 대화 유지 기술</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">주고받는 대화(Turn-Taking), 상대 관심사에 맞추어 질문하기</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">대화 및 대화 유지 기술</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">주고받는 대화(Turn-Taking), 상대 관심사에 맞추어 질문하기</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">갈등 해결 & 거절 대처</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">놀이 중 규칙 갈등 시 타협하기, 거절당했을 때 감정 추스르기</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">갈등 해결 & 거절 대처</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">놀이 중 규칙 갈등 시 타협하기, 거절당했을 때 감정 추스르기</p>
               </div>
-              <div class="p-3.5 bg-white rounded-xl border border-[#D8D6CC]">
-                <strong class="text-[#2C3322] text-sm sm:text-base block mb-1">팀워크 & 협동 프로젝트</strong>
-                <span class="text-xs sm:text-sm text-[#5F6156]">역할을 나누어 하나의 결과물을 완성하는 협력 경험</span>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">팀워크 & 협동 프로젝트</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">역할을 나누어 하나의 결과물을 완성하는 협력 경험</p>
               </div>
             </div>
           </div>
-          <div class="lg:w-80 shrink-0 bg-white p-6 rounded-2xl border border-[#D8D6CC] text-xs sm:text-sm space-y-3">
-            <h4 class="font-bold text-[#2C3322] text-base border-b border-[#D8D6CC] pb-2.5">그룹 구성</h4>
-            <p><strong class="text-[#2C3322]">인원:</strong> <span class="text-[#3A3E31]">연령 및 발달 수준별 2~4명 매칭</span></p>
-            <p><strong class="text-[#2C3322]">시간:</strong> <span class="text-[#3A3E31]">주 1~2회 (회기당 50분 치료 + 10분 부모상담)</span></p>
-            <p><strong class="text-[#2C3322]">담당:</strong> <span class="text-[#3A3E31]">이미지 책임연구원 & 사회성 전문팀</span></p>
-            <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="block w-full text-center py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-sm mt-3 transition shadow-xs">
+
+          <!-- Right (5 cols): Photo + Specs Table + CTA -->
+          <div class="lg:col-span-5 bg-white p-5 sm:p-6 rounded-2xl border border-[#D8D6CC] shadow-2xs space-y-4">
+            <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#F4F3EC] border border-[#D8D6CC] relative group">
+              <img src="images/facility_sst_group.jpg" alt="2~4인 짝치료 및 소그룹 사회기술 훈련실" class="w-full h-full object-cover group-hover:scale-103 transition duration-500" />
+            </div>
+
+            <div class="space-y-2 text-xs sm:text-sm text-[#3A3E31] pt-1">
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">대상 아동</span>
+                <span class="text-[#2C3322] font-semibold text-right">유아 및 초등 저학년·고학년 (또래 관계 어려움)</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">수업 일정</span>
+                <span class="text-[#2C3322] font-semibold text-right">주 1~2회 (회기당 50분 치료 + 10분 부모상담)</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">담당 연구진</span>
+                <span class="text-[#2C3322] font-semibold text-right">이미지 대표원장 &amp; 사회성 전문 연구진</span>
+              </div>
+            </div>
+
+            <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="block w-full text-center py-2.5 sm:py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-xs sm:text-sm transition shadow-2xs">
               📝 사회성 그룹 신청 (구글 폼)
             </a>
           </div>
+
         </div>
+
       </div>
 
       <!-- 4. 1:1 언어·놀이·인지치료 -->
-      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-10 bg-[#FAF9F5] shadow-sm" id="individual">
-        <div class="space-y-6">
-          <div class="flex items-center gap-2">
-            <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
-              개별 1:1 심층 치료
-            </span>
-            <span class="text-xs sm:text-sm text-[#7D955E]">1급 언어재활사 & 놀이심리전문가</span>
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] font-serif">
-            1:1 언어 ∙ 놀이 ∙ 인지학습치료
-          </h2>
-
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
-            <div class="bg-white p-6 rounded-2xl border border-[#D8D6CC] space-y-2.5">
-              <h4 class="font-bold text-[#2C3322] text-base sm:text-lg text-[#2C3322] font-serif">언어치료 (Speech Therapy)</h4>
-              <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed">
-                조음 개선, 수용·표현 언어 확장, 상황에 맞는 의사소통 의도를 1:1로 맞춤 촉진합니다.
-              </p>
-            </div>
-            <div class="bg-white p-6 rounded-2xl border border-[#D8D6CC] space-y-2.5">
-              <h4 class="font-bold text-[#2C3322] text-base sm:text-lg text-[#2C3322] font-serif">놀이치료 (Play Therapy)</h4>
-              <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed">
-                놀이를 통해 불안·위축·분노 등 내면의 정서적 갈등을 안전하게 해소하고 자존감을 회복합니다.
-              </p>
-            </div>
-            <div class="bg-white p-6 rounded-2xl border border-[#D8D6CC] space-y-3 flex flex-col justify-between">
-              <div>
-                <div class="rounded-xl overflow-hidden aspect-16/10 mb-3 border border-[#D8D6CC]">
-                  <img src="images/facility_therapy_room.jpg" alt="책상에서 차분히 몰입하는 아이" class="w-full h-full object-cover" />
-                </div>
-                <h4 class="font-bold text-[#2C3322] text-base sm:text-lg text-[#2C3322] font-serif">인지학습치료 (Cognitive Therapy)</h4>
-                <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed mt-1">
-                  주의집중력과 작업기억을 향상시키며 체계적인 과제 몰입 및 자기주도 학습 습관을 다집니다.
-                </p>
-              </div>
-              <div class="text-xs sm:text-sm text-[#5B7340] font-bold bg-[#EEF3E8] border border-[#7D955E]/30 p-2.5 rounded-lg text-center">
-                착석 유지 & 작업기억 향상
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 5. 심층 발달평가 & 부모코칭 -->
-      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-10 bg-[#F4F3EC] shadow-sm" id="evaluation">
-        <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
-          <div class="space-y-4 max-w-2xl">
+      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-8 lg:p-10 bg-[#FAF9F5] shadow-xs" id="individual">
+        
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-6 border-b border-[#E7E5DC] mb-7">
+          <div class="space-y-1.5">
             <div class="flex items-center gap-2">
-              <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
-                정밀 프로파일링 & 상담
+              <span class="w-2 h-2 rounded-full bg-[#7D955E]"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-[#7D955E] font-cormorant">Program 04</span>
+              <span class="text-[#D8D6CC]">|</span>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
+                1:1 개별 심층 치료
               </span>
-              <span class="text-xs sm:text-sm text-[#7D955E] font-medium">YT 임상연구팀</span>
             </div>
             <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] font-serif">
-              심층 발달평가 &amp; 1:1 심층 상담
+              1:1 언어 ∙ 놀이 ∙ 인지치료 <span class="text-base sm:text-lg font-normal text-[#5F6156] font-sans block sm:inline mt-0.5 sm:mt-0">(Individual Therapy)</span>
             </h2>
-            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep">
-              TCI 기질검사와 발달 프로파일을 정밀 분석하여 개별 맞춤 로드맵과 가정 연계 훈육 솔루션을 1:1로 제공합니다.
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-[#7D955E] bg-[#EEF3E8] px-3.5 py-1.5 rounded-full border border-[#7D955E]/30 self-start sm:self-auto shrink-0 font-sans">
+            1급 언어재활사 &amp; 놀이심리전문가
+          </div>
+        </div>
+
+        <!-- 2-Column Split -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <!-- Left (7 cols): Lead Text + 4 Curriculum Cards -->
+          <div class="lg:col-span-7 space-y-5">
+            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep font-sans">
+              아동의 기질과 취약 영역을 정밀하게 진단하여 1:1 맞춤 치료를 진행합니다. 언어 확장, 정서 안정, 주의집중력 개선을 종합적으로 지원합니다.
             </p>
-            <div class="p-5 bg-white rounded-xl border border-[#D8D6CC] text-xs sm:text-sm text-[#3A3E31] space-y-2">
-              <strong class="text-[#2C3322] block font-bold text-sm sm:text-base">💡 평가 및 코칭 진행 절차</strong>
-              <p>1. 사전 접수 및 초기 발달 문진 상담</p>
-              <p>2. 표준화 평가 도구(TCI 기질검사, 주의집중, 언어발달) 실시</p>
-              <p>3. 임상연구팀 다학제 슈퍼비전 및 종합 프로파일링 보고서 작성</p>
-              <p>4. 1:1 심층 결과 상담 및 가정 내 실천 솔루션 제공</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">언어치료 (Speech Therapy)</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">조음 개선, 수용·표현 언어 확장, 상황별 의사소통 의도 촉진</p>
+              </div>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">놀이치료 (Play Therapy)</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">놀이 매개로 불안·위축·분노 등 내면 갈등 해소 및 정서 안정</p>
+              </div>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">인지학습치료 (Cognitive)</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">주의집중력과 작업기억 향상, 과제 몰입 및 자기주도 학습 습관</p>
+              </div>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">가정 연계 맞춤 코칭</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">회기 직후 10분 심층 브리핑으로 가정 내 일관된 훈육 연계</p>
+              </div>
             </div>
           </div>
-          <div class="lg:w-80 shrink-0 bg-white p-6 rounded-2xl border border-[#D8D6CC] text-xs sm:text-sm space-y-3">
-            <h4 class="font-bold text-[#2C3322] text-base border-b border-[#D8D6CC] pb-2.5">상담 문의</h4>
-            <p><strong class="text-[#2C3322]">진행:</strong> <span class="text-[#3A3E31]">임상 총괄 슈퍼바이저 & 연구팀</span></p>
-            <p><strong class="text-[#2C3322]">방식:</strong> <span class="text-[#3A3E31]">100% 사전 예약제 운영</span></p>
-            <button onclick="openPostModal('eval-process')" class="w-full text-center py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-sm mt-3 transition shadow-xs">
+
+          <!-- Right (5 cols): Photo + Specs Table + CTA -->
+          <div class="lg:col-span-5 bg-white p-5 sm:p-6 rounded-2xl border border-[#D8D6CC] shadow-2xs space-y-4">
+            <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#F4F3EC] border border-[#D8D6CC] relative group">
+              <img src="images/facility_therapy_room.jpg" alt="차분하게 몰입할 수 있는 1:1 개별 심리치료실" class="w-full h-full object-cover group-hover:scale-103 transition duration-500" />
+            </div>
+
+            <div class="space-y-2 text-xs sm:text-sm text-[#3A3E31] pt-1">
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">대상 아동</span>
+                <span class="text-[#2C3322] font-semibold text-right">언어 지연, 정서 불안, 주의력 결핍 아동</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">진행 방식</span>
+                <span class="text-[#2C3322] font-semibold text-right">1:1 개별 맞춤 세션 (회기 40분 + 상담 10분)</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">담당 연구진</span>
+                <span class="text-[#2C3322] font-semibold text-right">분야별 1급 언어재활사 &amp; 놀이심리전문가</span>
+              </div>
+            </div>
+
+            <a href="https://forms.gle/fxMGcyj2b9ecVrq88" target="_blank" rel="noopener" class="block w-full text-center py-2.5 sm:py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-xs sm:text-sm transition shadow-2xs">
+              📝 1:1 치료 상담 신청 (구글 폼)
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 5. 심층 발달평가 & 초기상담 -->
+      <div class="scroll-mt-28 border border-[#D8D6CC] rounded-3xl p-6 sm:p-8 lg:p-10 bg-[#FAF9F5] shadow-xs" id="evaluation">
+        
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-6 border-b border-[#E7E5DC] mb-7">
+          <div class="space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-[#7D955E]"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-[#7D955E] font-cormorant">Program 05</span>
+              <span class="text-[#D8D6CC]">|</span>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#EEF3E8] text-[#5B7340] border border-[#7D955E]/30">
+                정밀 프로파일링
+              </span>
+            </div>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2C3322] font-serif">
+              심층 발달평가 &amp; 1:1 초기상담 <span class="text-base sm:text-lg font-normal text-[#5F6156] font-sans block sm:inline mt-0.5 sm:mt-0">(Clinical Evaluation)</span>
+            </h2>
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-[#7D955E] bg-[#EEF3E8] px-3.5 py-1.5 rounded-full border border-[#7D955E]/30 self-start sm:self-auto shrink-0 font-sans">
+            100% 사전 예약제
+          </div>
+        </div>
+
+        <!-- 2-Column Split -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <!-- Left (7 cols): Lead Text + 4 Process Cards -->
+          <div class="lg:col-span-7 space-y-5">
+            <p class="text-sm sm:text-base text-[#3A3E31] leading-relaxed break-keep font-sans">
+              TCI 기질검사와 표준화 발달 검사를 정밀 분석하여 개별 맞춤 로드맵과 가정 연계 훈육 솔루션을 1:1로 제공합니다.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">1. 사전 문진 & 접수</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">온라인 사전 문진표 작성 및 양육 고민·초기 발달사 면밀 확인</p>
+              </div>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">2. 표준화 도구 평가</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">TCI 기질검사, 주의집중력, 언어 및 사회성 객관 도구 평가</p>
+              </div>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">3. 다학제 교차 분석</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">총괄 슈퍼바이저 및 전문 연구진의 협력 사례 분석 및 프로파일링</p>
+              </div>
+              <div class="p-4 bg-white rounded-2xl border border-[#D8D6CC] space-y-1 shadow-2xs">
+                <strong class="text-[#2C3322] text-sm block font-serif">4. 1:1 심층 결과 상담</strong>
+                <p class="text-xs text-[#5F6156] leading-relaxed">원장님과의 1:1 대면 상담 및 가정 내 실천 솔루션 제공</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right (5 cols): Photo + Specs Table + CTA -->
+          <div class="lg:col-span-5 bg-white p-5 sm:p-6 rounded-2xl border border-[#D8D6CC] shadow-2xs space-y-4">
+            <div class="aspect-16/10 rounded-xl overflow-hidden bg-[#F4F3EC] border border-[#D8D6CC] relative group">
+              <img src="images/facility_dual_board.jpg" alt="시청각 장비와 칠판이 갖춰진 종합 발달 평가 및 상담실" class="w-full h-full object-cover group-hover:scale-103 transition duration-500" />
+            </div>
+
+            <div class="space-y-2 text-xs sm:text-sm text-[#3A3E31] pt-1">
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">진행 대상</span>
+                <span class="text-[#2C3322] font-semibold text-right">발달 점검 및 양육 방향 정립이 필요한 아동</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">진행 방식</span>
+                <span class="text-[#2C3322] font-semibold text-right">정밀 검사 실시 + 심층 결과 상담 리포트 제공</span>
+              </div>
+              <div class="flex items-start justify-between py-1.5 border-b border-[#ECEBE4]">
+                <span class="text-[#8D8B84] shrink-0 font-medium">담당 연구진</span>
+                <span class="text-[#2C3322] font-semibold text-right">이미지 대표원장 &amp; 임상 평가 전문팀</span>
+              </div>
+            </div>
+
+            <button onclick="openPostModal('eval-process')" class="w-full text-center py-2.5 sm:py-3 bg-[#2C3322] hover:bg-[#1E2317] text-[#FAF9F5] border border-[#2C3322] rounded-xl font-bold text-xs sm:text-sm transition shadow-2xs">
               평가 및 상담 시스템 자세히 보기
             </button>
           </div>
+
         </div>
+
       </div>
 
     </div>
