@@ -273,3 +273,20 @@ header.header-scrolled {
   box-shadow: 0 1px 3px rgba(44, 51, 34, 0.03) !important;
 }
 
+/* ============================================================
+   Profile Bullet List (전문가 프로필 불릿 리스트 내어쓰기 / 들여쓰기)
+   - 모바일 등 화면이 좁아져 줄바꿈이 될 때, 두 번째 줄부터 불릿 점(•) 뒷쪽으로 들여쓰기 정렬
+   ============================================================ */
+.profile-bullet-list {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  padding-left: 1.15rem !important;
+  margin-left: 0 !important;
+}
+
+.profile-bullet-list li {
+  padding-left: 0.15rem !important;
+  word-break: keep-all;
+}
+
+
