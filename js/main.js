@@ -462,6 +462,211 @@ const postsData = {
         </div>
       </div>
     `
+  },
+  'yt-social-skills': {
+    category: 'YouTube 특강',
+    title: '[유튜브] 친구 사귀기 힘들어하는 아이를 위한 ABA 사회성 기술 솔루션',
+    author: '연세나무아카데미 유튜브 채널',
+    date: '2026.10.15',
+    tag: '#유튜브특강 #사회성기술 #ABA행동치료 #또래관계 #눈치훈련',
+    link: 'https://www.youtube.com/@yonseitree',
+    linkText: '▶ 유튜브 @yonseitree 채널에서 시청하기',
+    content: `
+      <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+        <p class="font-medium text-slate-900 text-lg">
+          "눈치는 성격이 아니라 과학적으로 배우는 구체적인 행동 기술입니다."
+        </p>
+        <p>
+          연세나무아카데미 공식 유튜브 채널(@yonseitree)에서 공개한 전문가 특강 콘텐츠입니다. 또래 관계에서 의도치 않게 갈등이 생기거나, 상대방의 비언어적 신호(표정, 억양)를 읽기 어려워하는 아이들을 위한 실전 솔루션을 다룹니다.
+        </p>
+        <div class="bg-rose-50 border-l-4 border-rose-500 p-4 rounded-r-xl my-4 text-sm text-rose-950">
+          <strong>유튜브 핵심 강연 요약:</strong><br>
+          • <strong>1단계: 사회적 단서 포착</strong> - 친구의 표정과 목소리 톤에서 상황 파악하기<br>
+          • <strong>2단계: 주고받는 대화(Turn-Taking)</strong> - 내 관심사만 일방적으로 말하지 않고 질문 건네기<br>
+          • <strong>3단계: 거절 대처 훈련</strong> - 친구가 거절했을 때 떼쓰거나 화내지 않고 감정 추스르기
+        </div>
+        <p>
+          아이의 사회적 행동을 작은 단위로 나누어 가르치고, 실제 학교와 놀이 상황에서 어떻게 일반화할 수 있는지 상세한 시연과 함께 설명해 드립니다.
+        </p>
+        <div class="pt-2 text-center">
+          <a href="https://www.youtube.com/@yonseitree" target="_blank" rel="noopener" class="inline-flex items-center gap-2 py-3 px-6 bg-[#CC0000] hover:bg-[#b00000] text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs transition">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <span>연세나무아카데미 유튜브 본편 시청하기 &rarr;</span>
+          </a>
+        </div>
+      </div>
+    `
+  },
+  'yt-adhd-guide': {
+    category: 'YouTube 특강',
+    title: '[유튜브] 산만하고 충동적인 아이, 훈육 대신 필요한 행동분석(ABA) 가이드',
+    author: '연세나무아카데미 유튜브 채널',
+    date: '2026.09.05',
+    tag: '#주의집중력 #ADHD #행동중재 #부모교육 #유튜브강의',
+    link: 'https://www.youtube.com/@yonseitree',
+    linkText: '▶ 유튜브 @yonseitree 채널에서 시청하기',
+    content: `
+      <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+        <p class="font-medium text-slate-900 text-lg">
+          "가만히 있어!"라는 꾸중 대신, 집중할 수 있는 환경과 대체 행동을 가르쳐야 합니다.
+        </p>
+        <p>
+          수업 시간에 엉덩이를 들썩이거나 과제에 몰입하지 못하는 산만한 아이, 어떻게 도와주어야 할까요? 연세나무아카데미 채널의 임상 행동분석 전문가 특강입니다.
+        </p>
+        <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-xl my-4 text-sm text-amber-950">
+          <strong>가정에서 실천하는 3대 집중력 코칭:</strong><br>
+          1. <strong>과제 시각화:</strong> 40분을 한 번에 집중시키기보다 15분 단위로 쪼개어 타이머 사용<br>
+          2. <strong>자극 통제:</strong> 책상 주변 시각적·청각적 방해 요소를 최소화한 몰입존 구성<br>
+          3. <strong>즉각적 긍정 강화:</strong> 5분 착석 성공 시 즉시 구체적인 언어 칭찬과 보상 제공
+        </div>
+        <p>
+          뇌파 검사 및 주의력 종합검사를 통한 과학적 진단과 더불어 1:1 개별 인지치료에서 실제로 적용하는 행동 중재 원리를 알기 쉽게 풀어드립니다.
+        </p>
+        <div class="pt-2 text-center">
+          <a href="https://www.youtube.com/@yonseitree" target="_blank" rel="noopener" class="inline-flex items-center gap-2 py-3 px-6 bg-[#CC0000] hover:bg-[#b00000] text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs transition">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <span>유튜브 영상 보러가기 (@yonseitree) &rarr;</span>
+          </a>
+        </div>
+      </div>
+    `
+  },
+  'blog-school-recruit': {
+    category: '공식 블로그',
+    title: '[블로그] 2026 하반기 학교준비&적응반 모집 및 핵심 커리큘럼 총정리',
+    author: 'YT 공식 네이버 블로그',
+    date: '2026.10.28',
+    tag: '#네이버블로그 #학교준비적응 #예비초등 #소그룹수업 #하남미사',
+    link: 'https://blog.naver.com/ytree_academy',
+    linkText: '📗 공식 블로그에서 상세 모집 요강 읽기',
+    content: `
+      <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+        <p class="font-medium text-slate-900 text-lg">
+          실제 초등학교 교실과 동일한 모의 환경에서 입학 적응을 완벽히 준비합니다.
+        </p>
+        <p>
+          YT 심리발달 아카데미 공식 네이버 블로그(blog.naver.com/ytree_academy)에 공지된 2026 하반기 '학교준비&적응반' 정규 모집 안내입니다.
+        </p>
+        <div class="bg-emerald-50 border-l-4 border-emerald-600 p-4 rounded-r-xl my-4 text-sm text-emerald-950">
+          <strong>학교준비&적응반 개요:</strong><br>
+          • <strong>모집 대상:</strong> 7세 ~ 초등학생 (교실 적응 및 단체생활 훈련 필요 아동)<br>
+          • <strong>진행 정원:</strong> 4~8명 소그룹 밀착 지도<br>
+          • <strong>피드백:</strong> 매회기 보호자 심층 브리핑 및 가정 연계 입학 준비 가이드 제공<br>
+          • <strong>수업 구성:</strong> 40분 수업 착석, 물건 정리, 알림장 쓰기, 모둠 협동 활동
+        </div>
+        <p>
+          사전 초기상담 및 수준별 모둠 매칭을 통해 아이가 불안감 없이 학교생활에 흥미를 느끼도록 이끕니다.
+        </p>
+        <div class="pt-2 text-center">
+          <a href="https://blog.naver.com/ytree_academy" target="_blank" rel="noopener" class="inline-flex items-center gap-2 py-3 px-6 bg-[#03C75A] hover:bg-[#02b150] text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs transition">
+            <span>네이버 블로그 원문 공지 보러가기 &rarr;</span>
+          </a>
+        </div>
+      </div>
+    `
+  },
+  'blog-eval-system': {
+    category: '공식 블로그',
+    title: '[블로그] 종합심리평가(풀배터리)부터 ABA 발달평가까지: 원스톱 진단 가이드',
+    author: 'YT 공식 네이버 블로그',
+    date: '2026.07.10',
+    tag: '#종합심리평가 #풀배터리 #뇌파검사 #언어검사 #ABA발달평가',
+    link: 'https://blog.naver.com/ytree_academy',
+    linkText: '📗 공식 블로그에서 평가 가이드 읽기',
+    content: `
+      <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+        <p class="font-medium text-slate-900 text-lg">
+          정확한 진단이 올바른 성장 로드맵의 첫걸음입니다.
+        </p>
+        <p>
+          YT 아카데미 공식 블로그에 연재된 심층 발달평가 안내입니다. 단순 지능검사를 넘어 인지, 정서, 언어, 뇌기능을 아우르는 4대 평가 영역을 알기 쉽게 정리해 드렸습니다.
+        </p>
+        <div class="bg-slate-50 border-l-4 border-slate-600 p-4 rounded-r-xl my-4 text-sm text-slate-800">
+          <strong>4대 표준화 검사 영역:</strong><br>
+          1. <strong>종합심리평가 (풀배터리):</strong> 인지 기능 및 정서·성격 심층 분석<br>
+          2. <strong>주의력검사 / 뇌파 / AI 정서검사:</strong> 객관적 두뇌 기능 및 스트레스 프로파일링<br>
+          3. <strong>언어검사 (기본, 난독, 화용):</strong> 조음, 어휘력, 맥락 소통 능력 진단<br>
+          4. <strong>ABA 발달평가:</strong> 자조기술, 모방, 지시 따르기 등 구체적 행동 기능 측정
+        </div>
+        <p>
+          검사 후 원장님과의 1:1 대면 결과 브리핑을 통해 가정 내 실천 훈육 팁과 아카데미 맞춤 치료 계획을 수립해 드립니다.
+        </p>
+        <div class="pt-2 text-center">
+          <a href="https://blog.naver.com/ytree_academy" target="_blank" rel="noopener" class="inline-flex items-center gap-2 py-3 px-6 bg-[#03C75A] hover:bg-[#02b150] text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs transition">
+            <span>블로그 칼럼 전체보기 &rarr;</span>
+          </a>
+        </div>
+      </div>
+    `
+  },
+  'insta-tour': {
+    category: '인스타그램',
+    title: '[인스타그램] YT 아카데미 1:1 개별치료실 & 모의 학교교실 랜선 투어',
+    author: 'YT 공식 인스타그램',
+    date: '2026.10.20',
+    tag: '#인스타그램 #시설투어 #하남미사센터 #치료실환경 #모의교실',
+    link: 'https://www.instagram.com/ytacademy_official',
+    linkText: '📸 공식 인스타그램에서 사진과 릴스 둘러보기',
+    content: `
+      <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+        <p class="font-medium text-slate-900 text-lg">
+          아이의 감각 안정과 집중을 돕는 따뜻하고 안전한 치료 환경입니다.
+        </p>
+        <p>
+          공식 인스타그램(@ytacademy_official)에 업로드된 하남미사 본원 치료실 둘러보기 소식입니다. 아이들이 문을 열고 들어오는 순간 심리적 안정감을 느낄 수 있도록 친환경 자재와 차분한 조명으로 공간을 조성했습니다.
+        </p>
+        <div class="bg-fuchsia-50 border-l-4 border-fuchsia-500 p-4 rounded-r-xl my-4 text-sm text-fuchsia-950">
+          <strong>YT 아카데미 공간 포인트:</strong><br>
+          • <strong>1:1 맞춤 세션실:</strong> 과도한 시각 자극을 배제하고 집중을 극대화한 구조화된 환경<br>
+          • <strong>학교 모의 교실:</strong> 실제 초등 책걸상, 전자칠판, 알림장 게시대를 갖춘 교실 환경<br>
+          • <strong>안전한 세이프티 가드:</strong> 모서리 보호대와 친환경 쿠션 매트 시공<br>
+          • <strong>보호자 대기실:</strong> 실시간 진행 과정을 편안하게 기다릴 수 있는 쾌적한 라운지
+        </div>
+        <p>
+          인스타그램 릴스와 피드에서 실제 공간 사진과 아이들의 활동 영상을 만나보실 수 있습니다.
+        </p>
+        <div class="pt-2 text-center">
+          <a href="https://www.instagram.com/ytacademy_official" target="_blank" rel="noopener" class="inline-flex items-center gap-2 py-3 px-6 bg-linear-to-r from-[#833AB4] via-[#FD1D1D] to-[#F77737] hover:opacity-90 text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs transition">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>인스타그램에서 시설 둘러보기 &rarr;</span>
+          </a>
+        </div>
+      </div>
+    `
+  },
+  'insta-emotion-tips': {
+    category: '인스타그램',
+    title: '[인스타그램] 아이의 마음을 여는 "감정 단어 카드" 5분 코칭 팁',
+    author: 'YT 공식 인스타그램',
+    date: '2026.08.30',
+    tag: '#인스타그램 #감정코칭 #놀이치료 #양육팁 #마음읽기',
+    link: 'https://www.instagram.com/ytacademy_official',
+    linkText: '📸 인스타그램에서 카드뉴스 확인하기',
+    content: `
+      <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+        <p class="font-medium text-slate-900 text-lg">
+          자신의 감정에 이름을 붙일 수 있을 때 비로소 마음이 안정됩니다.
+        </p>
+        <p>
+          공식 인스타그램에 게재된 양육 팁 카드뉴스입니다. 아이가 화가 나거나 속상할 때 "왜 그래?"라고 다그치기보다 감정을 차분히 알아차릴 수 있도록 돕는 실천 팁입니다.
+        </p>
+        <div class="bg-rose-50 border-l-4 border-rose-400 p-4 rounded-r-xl my-4 text-sm text-rose-950">
+          <strong>하루 5분 감정 코칭 3단계:</strong><br>
+          1. <strong>신체 감각 읽어주기:</strong> "가슴이 쿵쾅거리고 주먹이 꽉 쥐어졌네?"<br>
+          2. <strong>구체적 감정 단어 붙여주기:</strong> 단순 '화남'이 아닌 '억울함', '서운함', '민망함' 명명하기<br>
+          3. <strong>심호흡과 대안 제시:</strong> "후- 하고 숨 내쉬고, 네가 바라는 걸 말해줄래?"
+        </div>
+        <p>
+          아이와 부모가 서로의 감정을 편안하게 나누는 따뜻한 소통을 응원합니다.
+        </p>
+        <div class="pt-2 text-center">
+          <a href="https://www.instagram.com/ytacademy_official" target="_blank" rel="noopener" class="inline-flex items-center gap-2 py-3 px-6 bg-linear-to-r from-[#833AB4] via-[#FD1D1D] to-[#F77737] hover:opacity-90 text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs transition">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>인스타그램 카드뉴스 바로가기 &rarr;</span>
+          </a>
+        </div>
+      </div>
+    `
   }
 };
 
@@ -493,8 +698,8 @@ function openPostModal(postId) {
         ${post.content}
       </div>
       <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
-        <a href="https://blog.naver.com/ytree_academy" target="_blank" rel="noopener" class="text-xs font-semibold text-emerald-700 hover:underline flex items-center gap-1">
-          <span>📗 공식 블로그 방문하기</span> &rarr;
+        <a href="${post.link || 'https://blog.naver.com/ytree_academy'}" target="_blank" rel="noopener" class="text-xs font-semibold text-emerald-700 hover:underline flex items-center gap-1">
+          <span>${post.linkText || '📗 공식 블로그 방문하기'}</span> &rarr;
         </a>
         <button onclick="closePostModal()" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-xs font-semibold transition">
           닫기
